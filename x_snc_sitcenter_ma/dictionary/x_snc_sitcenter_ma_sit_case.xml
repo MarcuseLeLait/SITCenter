@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="hasLabels=true" audit="true" extends="task" label="SIT Case" max_length="40" name="x_snc_sitcenter_ma_sit_case" sizeclass="7" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="internal" label="Classification" max_length="40" name="classification" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="confidential" value="confidential"/>
+                <element inactive_on_update="false" label="internal" value="internal"/>
+                <element inactive_on_update="false" label="secret" value="secret"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Customer Info" max_length="100" name="customer_info" type="string"/>
+    </element>
+</database>

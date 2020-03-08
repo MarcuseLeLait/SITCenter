@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item">
+    <sys_sg_write_back_action_item action="INSERT_OR_UPDATE">
+        <description/>
+        <execution_script/>
+        <name>New (SIT Case)</name>
+        <query_condition table="x_snc_sitcenter_ma_sit_case">sys_idSTARTSWITH{{SIT Case sys_id}}^EQ<item endquery="false" field="sys_id" goto="false" newquery="false" operator="STARTSWITH" or="false" value="{{SIT Case sys_id}}"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </query_condition>
+        <sys_class_name>sys_sg_write_back_action_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-03 10:47:58</sys_created_on>
+        <sys_id>5cb8058e1b1f48d08bc1da86cc4bcbd8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>New (SIT Case)</sys_name>
+        <sys_package display_value="SitCenter Management" source="x_snc_sitcenter_ma">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SitCenter Management">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_scope>
+        <sys_update_name>sys_sg_write_back_action_item_5cb8058e1b1f48d08bc1da86cc4bcbd8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-03 10:47:58</sys_updated_on>
+        <table>x_snc_sitcenter_ma_sit_case</table>
+        <template>priority={{SIT Case priority}}^state={{SIT Case state}}^short_description={{SIT Case short_description}}^description={{SIT Case description}}^assigned_to={{SIT Case assigned_to}}^assignment_group={{SIT Case assignment_group}}^company={{SIT Case company}}^location={{SIT Case location}}^cmdb_ci={{SIT Case cmdb_ci}}^business_service={{SIT Case business_service}}^EQ</template>
+        <type>new</type>
+        <use_current_record_as_condition>false</use_current_record_as_condition>
+    </sys_sg_write_back_action_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=5cb8058e1b1f48d08bc1da86cc4bcbd8"/>
+</record_update>

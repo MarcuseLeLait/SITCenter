@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_aw_list">
+    <sys_aw_list action="DELETE">
+        <active>true</active>
+        <category display_value="SIT Tasks">d0888d4e1b1f48d08bc1da86cc4bcb6b</category>
+        <columns>number,priority,state,assigned_to,assignment_group,short_description,opened_at,opened_by</columns>
+        <condition table="x_snc_sitcenter_ma_sit_task">active=true^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <groups/>
+        <list_attributes/>
+        <order>100</order>
+        <roles/>
+        <sys_class_name>sys_aw_list</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-03 10:47:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9c888d4e1b1f48d08bc1da86cc4bcb91</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Open</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="SitCenter Management" source="x_snc_sitcenter_ma">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SitCenter Management">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_scope>
+        <sys_update_name>sys_aw_list_9c888d4e1b1f48d08bc1da86cc4bcb91</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-03 10:47:08</sys_updated_on>
+        <table>x_snc_sitcenter_ma_sit_task</table>
+        <title>Open</title>
+        <workspace display_value="SitCenter Management">c278094e1b1f48d08bc1da86cc4bcbff</workspace>
+    </sys_aw_list>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SitCenter Management">f2e64d8a1b1f48d08bc1da86cc4bcbba</application>
+        <file_path/>
+        <instance_id>6c2ed365dbc9409052dd2f17d496196e</instance_id>
+        <instance_name>mlldemo</instance_name>
+        <name>sys_aw_list_9c888d4e1b1f48d08bc1da86cc4bcb91</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_aw_list"><sys_aw_list action="INSERT_OR_UPDATE"><active>true</active><category display_value="SIT Tasks">d0888d4e1b1f48d08bc1da86cc4bcb6b</category><columns>number,priority,state,assigned_to,assignment_group,short_description,opened_at,opened_by</columns><condition table="x_snc_sitcenter_ma_sit_task">active=true^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></condition><groups/><list_attributes/><order>100</order><roles/><sys_class_name>sys_aw_list</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-03 10:47:08</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>9c888d4e1b1f48d08bc1da86cc4bcb91</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Open</sys_name><sys_overrides/><sys_package display_value="SitCenter Management" source="x_snc_sitcenter_ma">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_package><sys_policy/><sys_scope display_value="SitCenter Management">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_scope><sys_update_name>sys_aw_list_9c888d4e1b1f48d08bc1da86cc4bcb91</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-03 10:47:08</sys_updated_on><table>x_snc_sitcenter_ma_sit_task</table><title>Open</title><workspace display_value="SitCenter Management">c278094e1b1f48d08bc1da86cc4bcbff</workspace></sys_aw_list></record_update>]]></payload>
+        <payload_hash>-713645273</payload_hash>
+        <record_name>Open</record_name>
+        <reverted_from/>
+        <source>fae64d8a1b1f48d08bc1da86cc4bcbbc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-03 10:47:08</sys_created_on>
+        <sys_id>10888d4e1b1f48d08bc1da86cc4bcb93</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170a001ab940000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-03 10:47:08</sys_updated_on>
+        <type>Workspace List</type>
+        <update_guid>18888d4e1a1f48d04a64bda0f69c2992</update_guid>
+        <update_guid_history>18888d4e1a1f48d04a64bda0f69c2992:-713645273</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-03 11:40:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_aw_list">sys_aw_list</sys_db_object>
+        <sys_id>09159283586448feb76058a9f098da84</sys_id>
+        <sys_metadata>9c888d4e1b1f48d08bc1da86cc4bcb91</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Open</sys_name>
+        <sys_package display_value="SitCenter Management" source="x_snc_sitcenter_ma">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="SitCenter Management">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_scope>
+        <sys_scope_delete display_value="">47ab8d9cb5dd4894a07d652183944890</sys_scope_delete>
+        <sys_update_name>sys_aw_list_9c888d4e1b1f48d08bc1da86cc4bcb91</sys_update_name>
+        <sys_update_version display_value="sys_aw_list_9c888d4e1b1f48d08bc1da86cc4bcb91">10888d4e1b1f48d08bc1da86cc4bcb93</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-03 11:40:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

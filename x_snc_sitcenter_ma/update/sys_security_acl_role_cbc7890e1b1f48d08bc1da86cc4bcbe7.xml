@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-03 10:44:04</sys_created_on>
+        <sys_id>cbc7890e1b1f48d08bc1da86cc4bcbe7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_sitcenter_ma_sit_case.x_snc_sitcenter_ma.sit_user</sys_name>
+        <sys_package display_value="SitCenter Management" source="x_snc_sitcenter_ma">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SitCenter Management">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_scope>
+        <sys_security_acl display_value="x_snc_sitcenter_ma_sit_case">4fc7890e1b1f48d08bc1da86cc4bcbe3</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_cbc7890e1b1f48d08bc1da86cc4bcbe7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-03 10:44:04</sys_updated_on>
+        <sys_user_role display_value="x_snc_sitcenter_ma.sit_user" name="x_snc_sitcenter_ma.sit_user">3017418e1bdb48d08bc1da86cc4bcb54</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

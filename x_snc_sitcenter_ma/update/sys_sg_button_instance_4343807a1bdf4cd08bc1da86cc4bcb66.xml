@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance">
+    <sys_sg_button_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <button display_value="Assign Task to Me">28f2c83a1bdf4cd08bc1da86cc4bcb2a</button>
+        <color_theme>primary</color_theme>
+        <description/>
+        <field_name/>
+        <icon/>
+        <label>Assign to Me</label>
+        <location>trailing_swipe</location>
+        <name>Assign to Me</name>
+        <order>10</order>
+        <parent>d592c03a1bdf4cd08bc1da86cc4bcb50</parent>
+        <parent_table>sys_sg_master_item</parent_table>
+        <sys_class_name>sys_sg_button_instance</sys_class_name>
+        <sys_created_by>markus.loehle</sys_created_by>
+        <sys_created_on>2020-03-05 13:40:13</sys_created_on>
+        <sys_id>4343807a1bdf4cd08bc1da86cc4bcb66</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Assign to Me</sys_name>
+        <sys_package display_value="SitCenter Management" source="x_snc_sitcenter_ma">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SitCenter Management">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_scope>
+        <sys_update_name>sys_sg_button_instance_4343807a1bdf4cd08bc1da86cc4bcb66</sys_update_name>
+        <sys_updated_by>markus.loehle</sys_updated_by>
+        <sys_updated_on>2020-03-05 13:41:17</sys_updated_on>
+        <table>x_snc_sitcenter_ma_sit_task</table>
+    </sys_sg_button_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=4343807a1bdf4cd08bc1da86cc4bcb66"/>
+</record_update>

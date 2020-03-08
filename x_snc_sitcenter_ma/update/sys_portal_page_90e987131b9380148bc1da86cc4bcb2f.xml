@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2020-03-08 05:51:19">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout/>
+        <order/>
+        <read_roles>snc_internal</read_roles>
+        <roles/>
+        <selectable>false</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>markus.loehle</sys_created_by>
+        <sys_created_on>2020-03-07 17:24:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>90e987131b9380148bc1da86cc4bcb2f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PA SIT Center Managemen - New Tab</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="SitCenter Management" source="x_snc_sitcenter_ma">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SitCenter Management">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_scope>
+        <sys_update_name>sys_portal_page_90e987131b9380148bc1da86cc4bcb2f</sys_update_name>
+        <sys_updated_by>markus.loehle</sys_updated_by>
+        <sys_updated_on>2020-03-07 17:24:48</sys_updated_on>
+        <title>PA SIT Center Managemen - New Tab</title>
+        <user/>
+        <view>pa_sit_center_managemen_-_new_tab</view>
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA SIT Center Managemen - New Tab">90e987131b9380148bc1da86cc4bcb2f</page>
+                <summary>SIT Cases by Hub and Assigned Colleague</summary>
+                <sys_created_by>markus.loehle</sys_created_by>
+                <sys_created_on>2020-03-07 17:30:09</sys_created_on>
+                <sys_id>321b0f931b9380148bc1da86cc4bcb0e</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>markus.loehle</sys_updated_by>
+                <sys_updated_on>2020-03-07 17:30:09</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2020-03-07 18:30:09">321b0f931b9380148bc1da86cc4bcb0e</portal_section>
+                        <sys_created_by>markus.loehle</sys_created_by>
+                        <sys_created_on>2020-03-07 17:30:09</sys_created_on>
+                        <sys_id>321b0f931b9380148bc1da86cc4bcb0f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>markus.loehle</sys_updated_by>
+                        <sys_updated_on>2020-03-07 17:30:09</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2020-03-07 18:30:09">321b0f931b9380148bc1da86cc4bcb0e</portal_section>
+                        <sys_created_by>markus.loehle</sys_created_by>
+                        <sys_created_on>2020-03-07 17:30:09</sys_created_on>
+                        <sys_id>761b0f931b9380148bc1da86cc4bcb0e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>markus.loehle</sys_updated_by>
+                        <sys_updated_on>2020-03-07 17:30:09</sys_updated_on>
+                        <value>e9fa43931b9380148bc1da86cc4bcb5b</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2020-03-07 18:30:09">321b0f931b9380148bc1da86cc4bcb0e</portal_section>
+                        <sys_created_by>markus.loehle</sys_created_by>
+                        <sys_created_on>2020-03-07 17:30:09</sys_created_on>
+                        <sys_id>7e1b0f931b9380148bc1da86cc4bcb0e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>markus.loehle</sys_updated_by>
+                        <sys_updated_on>2020-03-07 17:30:09</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2020-03-07 18:30:09">321b0f931b9380148bc1da86cc4bcb0e</portal_section>
+                        <sys_created_by>markus.loehle</sys_created_by>
+                        <sys_created_on>2020-03-07 17:30:09</sys_created_on>
+                        <sys_id>b61b0f931b9380148bc1da86cc4bcb0f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>markus.loehle</sys_updated_by>
+                        <sys_updated_on>2020-03-07 17:30:09</sys_updated_on>
+                        <value>SIT Cases by Hub and Assigned Colleague</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2020-03-07 18:30:09">321b0f931b9380148bc1da86cc4bcb0e</portal_section>
+                        <sys_created_by>markus.loehle</sys_created_by>
+                        <sys_created_on>2020-03-07 17:30:09</sys_created_on>
+                        <sys_id>ba1b0f931b9380148bc1da86cc4bcb0e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>markus.loehle</sys_updated_by>
+                        <sys_updated_on>2020-03-07 17:30:09</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2020-03-07 18:30:09">321b0f931b9380148bc1da86cc4bcb0e</portal_section>
+                        <sys_created_by>markus.loehle</sys_created_by>
+                        <sys_created_on>2020-03-07 17:30:09</sys_created_on>
+                        <sys_id>f21b0f931b9380148bc1da86cc4bcb0f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>markus.loehle</sys_updated_by>
+                        <sys_updated_on>2020-03-07 17:30:09</sys_updated_on>
+                        <value>bar</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA SIT Center Managemen - New Tab">90e987131b9380148bc1da86cc4bcb2f</page>
+                <summary>SIT Cases by Location</summary>
+                <sys_created_by>markus.loehle</sys_created_by>
+                <sys_created_on>2020-03-07 17:25:32</sys_created_on>
+                <sys_id>8b0a0f131b9380148bc1da86cc4bcbc5</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>markus.loehle</sys_updated_by>
+                <sys_updated_on>2020-03-07 17:25:32</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2020-03-07 18:25:32">8b0a0f131b9380148bc1da86cc4bcbc5</portal_section>
+                        <sys_created_by>markus.loehle</sys_created_by>
+                        <sys_created_on>2020-03-07 17:25:32</sys_created_on>
+                        <sys_id>030a0f131b9380148bc1da86cc4bcbc7</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>markus.loehle</sys_updated_by>
+                        <sys_updated_on>2020-03-07 17:25:32</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2020-03-07 18:25:32">8b0a0f131b9380148bc1da86cc4bcbc5</portal_section>
+                        <sys_created_by>markus.loehle</sys_created_by>
+                        <sys_created_on>2020-03-07 17:25:32</sys_created_on>
+                        <sys_id>4b0a0f131b9380148bc1da86cc4bcbc7</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>markus.loehle</sys_updated_by>
+                        <sys_updated_on>2020-03-07 17:25:32</sys_updated_on>
+                        <value>SIT Cases by Location</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2020-03-07 18:25:32">8b0a0f131b9380148bc1da86cc4bcbc5</portal_section>
+                        <sys_created_by>markus.loehle</sys_created_by>
+                        <sys_created_on>2020-03-07 17:25:32</sys_created_on>
+                        <sys_id>4f0a0f131b9380148bc1da86cc4bcbc6</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>markus.loehle</sys_updated_by>
+                        <sys_updated_on>2020-03-07 17:25:32</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2020-03-07 18:25:32">8b0a0f131b9380148bc1da86cc4bcbc5</portal_section>
+                        <sys_created_by>markus.loehle</sys_created_by>
+                        <sys_created_on>2020-03-07 17:25:32</sys_created_on>
+                        <sys_id>870a0f131b9380148bc1da86cc4bcbc7</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>markus.loehle</sys_updated_by>
+                        <sys_updated_on>2020-03-07 17:25:32</sys_updated_on>
+                        <value>map</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2020-03-07 18:25:32">8b0a0f131b9380148bc1da86cc4bcbc5</portal_section>
+                        <sys_created_by>markus.loehle</sys_created_by>
+                        <sys_created_on>2020-03-07 17:25:32</sys_created_on>
+                        <sys_id>c30a0f131b9380148bc1da86cc4bcbc6</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>markus.loehle</sys_updated_by>
+                        <sys_updated_on>2020-03-07 17:25:32</sys_updated_on>
+                        <value>1fa8439f1b5380148bc1da86cc4bcb1a</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2020-03-07 18:25:32">8b0a0f131b9380148bc1da86cc4bcbc5</portal_section>
+                        <sys_created_by>markus.loehle</sys_created_by>
+                        <sys_created_on>2020-03-07 17:25:32</sys_created_on>
+                        <sys_id>c30a0f131b9380148bc1da86cc4bcbc7</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>markus.loehle</sys_updated_by>
+                        <sys_updated_on>2020-03-07 17:25:32</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA SIT Center Managemen - New Tab">90e987131b9380148bc1da86cc4bcb2f</page>
+                <summary>SIT Cases by Priority</summary>
+                <sys_created_by>markus.loehle</sys_created_by>
+                <sys_created_on>2020-03-07 17:34:00</sys_created_on>
+                <sys_id>c7fbc7171b9380148bc1da86cc4bcb69</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>markus.loehle</sys_updated_by>
+                <sys_updated_on>2020-03-07 17:34:00</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2020-03-07 18:34:00">c7fbc7171b9380148bc1da86cc4bcb69</portal_section>
+                        <sys_created_by>markus.loehle</sys_created_by>
+                        <sys_created_on>2020-03-07 17:34:00</sys_created_on>
+                        <sys_id>03fbc7171b9380148bc1da86cc4bcb6b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>markus.loehle</sys_updated_by>
+                        <sys_updated_on>2020-03-07 17:34:00</sys_updated_on>
+                        <value>SIT Cases by Priority</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2020-03-07 18:34:00">c7fbc7171b9380148bc1da86cc4bcb69</portal_section>
+                        <sys_created_by>markus.loehle</sys_created_by>
+                        <sys_created_on>2020-03-07 17:34:00</sys_created_on>
+                        <sys_id>07fbc7171b9380148bc1da86cc4bcb6a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>markus.loehle</sys_updated_by>
+                        <sys_updated_on>2020-03-07 17:34:00</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2020-03-07 18:34:00">c7fbc7171b9380148bc1da86cc4bcb69</portal_section>
+                        <sys_created_by>markus.loehle</sys_created_by>
+                        <sys_created_on>2020-03-07 17:34:00</sys_created_on>
+                        <sys_id>0ffbc7171b9380148bc1da86cc4bcb69</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>markus.loehle</sys_updated_by>
+                        <sys_updated_on>2020-03-07 17:34:00</sys_updated_on>
+                        <value>96bb4bd31b9380148bc1da86cc4bcb7a</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2020-03-07 18:34:00">c7fbc7171b9380148bc1da86cc4bcb69</portal_section>
+                        <sys_created_by>markus.loehle</sys_created_by>
+                        <sys_created_on>2020-03-07 17:34:00</sys_created_on>
+                        <sys_id>43fbc7171b9380148bc1da86cc4bcb6a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>markus.loehle</sys_updated_by>
+                        <sys_updated_on>2020-03-07 17:34:00</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2020-03-07 18:34:00">c7fbc7171b9380148bc1da86cc4bcb69</portal_section>
+                        <sys_created_by>markus.loehle</sys_created_by>
+                        <sys_created_on>2020-03-07 17:34:00</sys_created_on>
+                        <sys_id>4ffbc7171b9380148bc1da86cc4bcb6a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>markus.loehle</sys_updated_by>
+                        <sys_updated_on>2020-03-07 17:34:00</sys_updated_on>
+                        <value>bar</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>is_using_database_view</name>
+                        <portal_section display_value="Created 2020-03-07 18:34:00">c7fbc7171b9380148bc1da86cc4bcb69</portal_section>
+                        <sys_created_by>markus.loehle</sys_created_by>
+                        <sys_created_on>2020-03-07 17:34:00</sys_created_on>
+                        <sys_id>87fbc7171b9380148bc1da86cc4bcb6b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>markus.loehle</sys_updated_by>
+                        <sys_updated_on>2020-03-07 17:34:00</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2020-03-07 18:34:00">c7fbc7171b9380148bc1da86cc4bcb69</portal_section>
+                        <sys_created_by>markus.loehle</sys_created_by>
+                        <sys_created_on>2020-03-07 17:34:00</sys_created_on>
+                        <sys_id>8bfbc7171b9380148bc1da86cc4bcb6a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>markus.loehle</sys_updated_by>
+                        <sys_updated_on>2020-03-07 17:34:00</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_publish</name>
+                        <portal_section display_value="Created 2020-03-07 18:34:00">c7fbc7171b9380148bc1da86cc4bcb69</portal_section>
+                        <sys_created_by>markus.loehle</sys_created_by>
+                        <sys_created_on>2020-03-07 17:34:00</sys_created_on>
+                        <sys_id>c7fbc7171b9380148bc1da86cc4bcb6a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>markus.loehle</sys_updated_by>
+                        <sys_updated_on>2020-03-07 17:34:00</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA SIT Center Managemen - New Tab">90e987131b9380148bc1da86cc4bcb2f</page>
+                <summary>SIT Cases By State</summary>
+                <sys_created_by>markus.loehle</sys_created_by>
+                <sys_created_on>2020-03-07 17:26:32</sys_created_on>
+                <sys_id>ed4ac3531b9380148bc1da86cc4bcbf4</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>markus.loehle</sys_updated_by>
+                <sys_updated_on>2020-03-07 17:26:32</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2020-03-07 18:26:32">ed4ac3531b9380148bc1da86cc4bcbf4</portal_section>
+                        <sys_created_by>markus.loehle</sys_created_by>
+                        <sys_created_on>2020-03-07 17:26:32</sys_created_on>
+                        <sys_id>294ac3531b9380148bc1da86cc4bcbf5</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>markus.loehle</sys_updated_by>
+                        <sys_updated_on>2020-03-07 17:26:32</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2020-03-07 18:26:32">ed4ac3531b9380148bc1da86cc4bcbf4</portal_section>
+                        <sys_created_by>markus.loehle</sys_created_by>
+                        <sys_created_on>2020-03-07 17:26:32</sys_created_on>
+                        <sys_id>354ac3531b9380148bc1da86cc4bcbf6</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>markus.loehle</sys_updated_by>
+                        <sys_updated_on>2020-03-07 17:26:32</sys_updated_on>
+                        <value>SIT Cases By State</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2020-03-07 18:26:32">ed4ac3531b9380148bc1da86cc4bcbf4</portal_section>
+                        <sys_created_by>markus.loehle</sys_created_by>
+                        <sys_created_on>2020-03-07 17:26:32</sys_created_on>
+                        <sys_id>714ac3531b9380148bc1da86cc4bcbf6</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>markus.loehle</sys_updated_by>
+                        <sys_updated_on>2020-03-07 17:26:32</sys_updated_on>
+                        <value>bar</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2020-03-07 18:26:32">ed4ac3531b9380148bc1da86cc4bcbf4</portal_section>
+                        <sys_created_by>markus.loehle</sys_created_by>
+                        <sys_created_on>2020-03-07 17:26:32</sys_created_on>
+                        <sys_id>bd4ac3531b9380148bc1da86cc4bcbf5</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>markus.loehle</sys_updated_by>
+                        <sys_updated_on>2020-03-07 17:26:32</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2020-03-07 18:26:32">ed4ac3531b9380148bc1da86cc4bcbf4</portal_section>
+                        <sys_created_by>markus.loehle</sys_created_by>
+                        <sys_created_on>2020-03-07 17:26:32</sys_created_on>
+                        <sys_id>e14ac3531b9380148bc1da86cc4bcbf5</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>markus.loehle</sys_updated_by>
+                        <sys_updated_on>2020-03-07 17:26:32</sys_updated_on>
+                        <value>c7cde7e21b5f4cd08bc1da86cc4bcbd9</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2020-03-07 18:26:32">ed4ac3531b9380148bc1da86cc4bcbf4</portal_section>
+                        <sys_created_by>markus.loehle</sys_created_by>
+                        <sys_created_on>2020-03-07 17:26:32</sys_created_on>
+                        <sys_id>e94ac3531b9380148bc1da86cc4bcbf5</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>markus.loehle</sys_updated_by>
+                        <sys_updated_on>2020-03-07 17:26:32</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA SIT Center Managemen - New Tab">90e987131b9380148bc1da86cc4bcb2f</page>
+                <summary>SIT Cases By Regional Hub</summary>
+                <sys_created_by>markus.loehle</sys_created_by>
+                <sys_created_on>2020-03-07 17:27:09</sys_created_on>
+                <sys_id>f26a87531b9380148bc1da86cc4bcb06</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>markus.loehle</sys_updated_by>
+                <sys_updated_on>2020-03-07 17:27:09</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2020-03-07 18:27:09">f26a87531b9380148bc1da86cc4bcb06</portal_section>
+                        <sys_created_by>markus.loehle</sys_created_by>
+                        <sys_created_on>2020-03-07 17:27:09</sys_created_on>
+                        <sys_id>3a6a87531b9380148bc1da86cc4bcb07</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>markus.loehle</sys_updated_by>
+                        <sys_updated_on>2020-03-07 17:27:09</sys_updated_on>
+                        <value>SIT Cases By Regional Hub</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2020-03-07 18:27:09">f26a87531b9380148bc1da86cc4bcb06</portal_section>
+                        <sys_created_by>markus.loehle</sys_created_by>
+                        <sys_created_on>2020-03-07 17:27:09</sys_created_on>
+                        <sys_id>3e6a87531b9380148bc1da86cc4bcb06</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>markus.loehle</sys_updated_by>
+                        <sys_updated_on>2020-03-07 17:27:09</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2020-03-07 18:27:09">f26a87531b9380148bc1da86cc4bcb06</portal_section>
+                        <sys_created_by>markus.loehle</sys_created_by>
+                        <sys_created_on>2020-03-07 17:27:09</sys_created_on>
+                        <sys_id>766a87531b9380148bc1da86cc4bcb07</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>markus.loehle</sys_updated_by>
+                        <sys_updated_on>2020-03-07 17:27:09</sys_updated_on>
+                        <value>donut</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2020-03-07 18:27:09">f26a87531b9380148bc1da86cc4bcb06</portal_section>
+                        <sys_created_by>markus.loehle</sys_created_by>
+                        <sys_created_on>2020-03-07 17:27:09</sys_created_on>
+                        <sys_id>b26a87531b9380148bc1da86cc4bcb07</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>markus.loehle</sys_updated_by>
+                        <sys_updated_on>2020-03-07 17:27:09</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2020-03-07 18:27:09">f26a87531b9380148bc1da86cc4bcb06</portal_section>
+                        <sys_created_by>markus.loehle</sys_created_by>
+                        <sys_created_on>2020-03-07 17:27:09</sys_created_on>
+                        <sys_id>f66a87531b9380148bc1da86cc4bcb06</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>markus.loehle</sys_updated_by>
+                        <sys_updated_on>2020-03-07 17:27:09</sys_updated_on>
+                        <value>a379525b1b5f40148bc1da86cc4bcb48</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2020-03-07 18:27:09">f26a87531b9380148bc1da86cc4bcb06</portal_section>
+                        <sys_created_by>markus.loehle</sys_created_by>
+                        <sys_created_on>2020-03-07 17:27:09</sys_created_on>
+                        <sys_id>fe6a87531b9380148bc1da86cc4bcb06</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>markus.loehle</sys_updated_by>
+                        <sys_updated_on>2020-03-07 17:27:09</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
+    </sys_portal_page>
+</record_update>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_aw_module">
+    <sys_aw_module action="DELETE">
+        <active>true</active>
+        <content/>
+        <content_attrs/>
+        <content_component display_value="sn-workspace-list-module">19622d2bff222300294153bd6338f1ef</content_component>
+        <content_tag/>
+        <detail/>
+        <detail_attrs/>
+        <detail_component/>
+        <detail_tag/>
+        <hide_until_ready>false</hide_until_ready>
+        <icon>list-outline</icon>
+        <id>list</id>
+        <label>Lists</label>
+        <order>100</order>
+        <roles/>
+        <sys_class_name>sys_aw_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-04 06:11:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>450399d21b97c8d08bc1da86cc4bcb96</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>list</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="SitCenter Management" source="x_snc_sitcenter_ma">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_package>
+        <sys_policy/>
+        <sys_props/>
+        <sys_scope display_value="SitCenter Management">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_scope>
+        <sys_update_name>sys_aw_module_450399d21b97c8d08bc1da86cc4bcb96</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-04 06:11:33</sys_updated_on>
+        <toolbar_button/>
+        <type>full</type>
+        <workspace_config display_value="SitCenter Management">c10315d21b97c8d08bc1da86cc4bcbc9</workspace_config>
+    </sys_aw_module>
+    <sys_variable_value action="DELETE" query="document_key=450399d21b97c8d08bc1da86cc4bcb96"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SitCenter Management">f2e64d8a1b1f48d08bc1da86cc4bcbba</application>
+        <file_path/>
+        <instance_id>6c2ed365dbc9409052dd2f17d496196e</instance_id>
+        <instance_name>mlldemo</instance_name>
+        <name>sys_aw_module_450399d21b97c8d08bc1da86cc4bcb96</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_aw_module"><sys_aw_module action="INSERT_OR_UPDATE"><active>true</active><content/><content_attrs/><content_component display_value="sn-workspace-list-module">19622d2bff222300294153bd6338f1ef</content_component><content_tag/><detail/><detail_attrs/><detail_component/><detail_tag/><hide_until_ready>false</hide_until_ready><icon>list-outline</icon><id>list</id><label>Lists</label><order>100</order><roles/><sys_class_name>sys_aw_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-04 06:11:33</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>450399d21b97c8d08bc1da86cc4bcb96</sys_id><sys_mod_count>0</sys_mod_count><sys_name>list</sys_name><sys_overrides/><sys_package display_value="SitCenter Management" source="x_snc_sitcenter_ma">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_package><sys_policy/><sys_props/><sys_scope display_value="SitCenter Management">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_scope><sys_update_name>sys_aw_module_450399d21b97c8d08bc1da86cc4bcb96</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-04 06:11:33</sys_updated_on><toolbar_button/><type>full</type><workspace_config display_value="SitCenter Management">c10315d21b97c8d08bc1da86cc4bcbc9</workspace_config></sys_aw_module><sys_variable_value action="delete_multiple" query="document_key=450399d21b97c8d08bc1da86cc4bcb96"/></record_update>]]></payload>
+        <payload_hash>-230366235</payload_hash>
+        <record_name>list</record_name>
+        <reverted_from/>
+        <source>fae64d8a1b1f48d08bc1da86cc4bcbbc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-04 06:11:36</sys_created_on>
+        <sys_id>b503d9d21b97c8d08bc1da86cc4bcb8d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170a42bc4240000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-04 06:11:36</sys_updated_on>
+        <type>Workspace Module</type>
+        <update_guid>c90399d2d997c8d048d507a5f08da0a7</update_guid>
+        <update_guid_history>c90399d2d997c8d048d507a5f08da0a7:1225629625,c90399d2d997c8d048d507a5f08da0a7:1225629625,c90399d2d997c8d048d507a5f08da0a7:1225629625</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-04 06:11:36</sys_created_on>
+        <sys_db_object display_value="" name="sys_aw_module">sys_aw_module</sys_db_object>
+        <sys_id>af3f1097be2346fd9fc2589e53428af9</sys_id>
+        <sys_metadata>450399d21b97c8d08bc1da86cc4bcb96</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>list</sys_name>
+        <sys_package display_value="SitCenter Management" source="x_snc_sitcenter_ma">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="SitCenter Management">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_scope>
+        <sys_scope_delete display_value="">47ab8d9cb5dd4894a07d652183944890</sys_scope_delete>
+        <sys_update_name>sys_aw_module_450399d21b97c8d08bc1da86cc4bcb96</sys_update_name>
+        <sys_update_version display_value="sys_aw_module_450399d21b97c8d08bc1da86cc4bcb96">b503d9d21b97c8d08bc1da86cc4bcb8d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-04 06:11:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

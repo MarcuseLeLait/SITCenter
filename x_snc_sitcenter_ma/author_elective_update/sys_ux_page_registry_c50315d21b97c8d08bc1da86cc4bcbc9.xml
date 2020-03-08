@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry">
+    <sys_ux_page_registry action="DELETE">
+        <active>true</active>
+        <admin_panel>c10315d21b97c8d08bc1da86cc4bcbc9</admin_panel>
+        <admin_panel_table>sys_aw_master_config</admin_panel_table>
+        <page display_value="Workspace Core">b70867ad0f603300bb57f4a1ff767e15</page>
+        <path>workspace/sitcenter_management</path>
+        <sys_class_name>sys_ux_page_registry</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-04 06:11:33</sys_created_on>
+        <sys_id>c50315d21b97c8d08bc1da86cc4bcbc9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SitCenter Management</sys_name>
+        <sys_package display_value="SitCenter Management" source="x_snc_sitcenter_ma">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SitCenter Management">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_scope>
+        <sys_update_name>sys_ux_page_registry_c50315d21b97c8d08bc1da86cc4bcbc9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-04 06:11:33</sys_updated_on>
+        <title>SitCenter Management</title>
+    </sys_ux_page_registry>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SitCenter Management">f2e64d8a1b1f48d08bc1da86cc4bcbba</application>
+        <file_path/>
+        <instance_id>6c2ed365dbc9409052dd2f17d496196e</instance_id>
+        <instance_name>mlldemo</instance_name>
+        <name>sys_ux_page_registry_c50315d21b97c8d08bc1da86cc4bcbc9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry"><sys_ux_page_registry action="INSERT_OR_UPDATE"><active>true</active><admin_panel>c10315d21b97c8d08bc1da86cc4bcbc9</admin_panel><admin_panel_table>sys_aw_master_config</admin_panel_table><page display_value="Workspace Core">b70867ad0f603300bb57f4a1ff767e15</page><path>workspace/sitcenter_management</path><sys_class_name>sys_ux_page_registry</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-04 06:11:33</sys_created_on><sys_id>c50315d21b97c8d08bc1da86cc4bcbc9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>SitCenter Management</sys_name><sys_package display_value="SitCenter Management" source="x_snc_sitcenter_ma">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_package><sys_policy/><sys_scope display_value="SitCenter Management">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_scope><sys_update_name>sys_ux_page_registry_c50315d21b97c8d08bc1da86cc4bcbc9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-04 06:11:33</sys_updated_on><title>SitCenter Management</title></sys_ux_page_registry></record_update>]]></payload>
+        <payload_hash>801324953</payload_hash>
+        <record_name>SitCenter Management</record_name>
+        <reverted_from/>
+        <source>fae64d8a1b1f48d08bc1da86cc4bcbbc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-04 06:11:33</sys_created_on>
+        <sys_id>050315d21b97c8d08bc1da86cc4bcbcb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170a42bb7100000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-04 06:11:33</sys_updated_on>
+        <type>UX Page Registry</type>
+        <update_guid>0d0315d20597c8d01961bbab3d2042ca</update_guid>
+        <update_guid_history>0d0315d20597c8d01961bbab3d2042ca:801324953</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-04 06:11:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_registry">sys_ux_page_registry</sys_db_object>
+        <sys_id>5e95a38ea1c142389a491bcb75fb5040</sys_id>
+        <sys_metadata>c50315d21b97c8d08bc1da86cc4bcbc9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SitCenter Management</sys_name>
+        <sys_package display_value="SitCenter Management" source="x_snc_sitcenter_ma">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="SitCenter Management">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_scope>
+        <sys_scope_delete display_value="">47ab8d9cb5dd4894a07d652183944890</sys_scope_delete>
+        <sys_update_name>sys_ux_page_registry_c50315d21b97c8d08bc1da86cc4bcbc9</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_registry_c50315d21b97c8d08bc1da86cc4bcbc9">050315d21b97c8d08bc1da86cc4bcbcb</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-04 06:11:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

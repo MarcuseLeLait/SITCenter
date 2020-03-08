@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>SIT Task</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>SIT Task</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">863db7941b01001049a5993d1d4bcba1</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-03 10:45:35</sys_created_on>
+        <sys_id>5928c14e1b1f48d08bc1da86cc4bcb0f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SIT Task</sys_name>
+        <sys_package display_value="SitCenter Management" source="x_snc_sitcenter_ma">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SitCenter Management">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_scope>
+        <sys_update_name>sys_wizard_answer_5928c14e1b1f48d08bc1da86cc4bcb0f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-03 10:45:35</sys_updated_on>
+        <table/>
+        <target_url>x_snc_sitcenter_ma_sit_task.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>

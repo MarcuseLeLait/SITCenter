@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="INSERT_OR_UPDATE">
+        <group_id/>
+        <report_id display_value="SIT Cases by Location">1fa8439f1b5380148bc1da86cc4bcb1a</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>markus.loehle</sys_created_by>
+        <sys_created_on>2020-03-07 17:19:32</sys_created_on>
+        <sys_id>93a8439f1b5380148bc1da86cc4bcb1b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1fa8439f1b5380148bc1da86cc4bcb1a</sys_name>
+        <sys_package display_value="SitCenter Management" source="x_snc_sitcenter_ma">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SitCenter Management">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_scope>
+        <sys_update_name>sys_report_users_groups_93a8439f1b5380148bc1da86cc4bcb1b</sys_update_name>
+        <sys_updated_by>markus.loehle</sys_updated_by>
+        <sys_updated_on>2020-03-07 17:19:32</sys_updated_on>
+        <user_id display_value="Markus Loehle">dc85aeee1b574cd08bc1da86cc4bcb31</user_id>
+    </sys_report_users_groups>
+</record_update>

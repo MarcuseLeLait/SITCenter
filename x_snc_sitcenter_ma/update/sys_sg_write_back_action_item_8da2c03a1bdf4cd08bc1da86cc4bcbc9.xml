@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item">
+    <sys_sg_write_back_action_item action="INSERT_OR_UPDATE">
+        <description/>
+        <execution_script/>
+        <name>Assign Task To me</name>
+        <query_condition/>
+        <sys_class_name>sys_sg_write_back_action_item</sys_class_name>
+        <sys_created_by>markus.loehle</sys_created_by>
+        <sys_created_on>2020-03-05 13:38:19</sys_created_on>
+        <sys_id>8da2c03a1bdf4cd08bc1da86cc4bcbc9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Assign Task To me</sys_name>
+        <sys_package display_value="SitCenter Management" source="x_snc_sitcenter_ma">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SitCenter Management">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_scope>
+        <sys_update_name>sys_sg_write_back_action_item_8da2c03a1bdf4cd08bc1da86cc4bcbc9</sys_update_name>
+        <sys_updated_by>markus.loehle</sys_updated_by>
+        <sys_updated_on>2020-03-05 13:38:19</sys_updated_on>
+        <table>x_snc_sitcenter_ma_sit_task</table>
+        <template>assigned_to=dc85aeee1b574cd08bc1da86cc4bcb31^EQ</template>
+        <type>update</type>
+        <use_current_record_as_condition>true</use_current_record_as_condition>
+    </sys_sg_write_back_action_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=8da2c03a1bdf4cd08bc1da86cc4bcbc9"/>
+</record_update>

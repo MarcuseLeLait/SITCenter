@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="New Section" section_id="47fb09061b5f48d08bc1da86cc4bcbed" sys_domain="global" table="x_snc_sitcenter_ma_sit_case" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_notes</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-03 11:02:25</sys_created_on>
+            <sys_id>cc0c49061b5f48d08bc1da86cc4bcb8b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_snc_sitcenter_ma_sit_case" sys_domain="global" view="Default view">47fb09061b5f48d08bc1da86cc4bcbed</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-03 11:02:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-03 11:02:25</sys_created_on>
+            <sys_id>0c0c49061b5f48d08bc1da86cc4bcb98</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_snc_sitcenter_ma_sit_case" sys_domain="global" view="Default view">47fb09061b5f48d08bc1da86cc4bcbed</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-03 11:02:25</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>inline_checklist_macro</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-03 11:02:25</sys_created_on>
+            <sys_id>800c49061b5f48d08bc1da86cc4bcb99</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Checklist">ade76621c3200200e280dccdf3d3ae9a</sys_ui_formatter>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_snc_sitcenter_ma_sit_case" sys_domain="global" view="Default view">47fb09061b5f48d08bc1da86cc4bcbed</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-03 11:02:25</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-03 11:02:25</sys_created_on>
+            <sys_id>480c49061b5f48d08bc1da86cc4bcb99</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_snc_sitcenter_ma_sit_case" sys_domain="global" view="Default view">47fb09061b5f48d08bc1da86cc4bcbed</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-03 11:02:25</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-03 11:02:25</sys_created_on>
+            <sys_id>cc0c49061b5f48d08bc1da86cc4bcb99</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_snc_sitcenter_ma_sit_case" sys_domain="global" view="Default view">47fb09061b5f48d08bc1da86cc4bcbed</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-03 11:02:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>customer_info</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-03 11:02:25</sys_created_on>
+            <sys_id>440c49061b5f48d08bc1da86cc4bcb9a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_snc_sitcenter_ma_sit_case" sys_domain="global" view="Default view">47fb09061b5f48d08bc1da86cc4bcbed</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-03 11:02:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-03 11:02:25</sys_created_on>
+            <sys_id>c80c49061b5f48d08bc1da86cc4bcb9a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_snc_sitcenter_ma_sit_case" sys_domain="global" view="Default view">47fb09061b5f48d08bc1da86cc4bcbed</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-03 11:02:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-03 11:02:25</sys_created_on>
+            <sys_id>400c49061b5f48d08bc1da86cc4bcb9b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_snc_sitcenter_ma_sit_case" sys_domain="global" view="Default view">47fb09061b5f48d08bc1da86cc4bcbed</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-03 11:02:25</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>New Section</caption>
+            <header>false</header>
+            <name>x_snc_sitcenter_ma_sit_case</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-03 11:02:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>47fb09061b5f48d08bc1da86cc4bcbed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>New Section</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="SitCenter Management" source="x_snc_sitcenter_ma">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="SitCenter Management">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_scope>
+            <sys_update_name>sys_ui_section_47fb09061b5f48d08bc1da86cc4bcbed</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-03 11:02:22</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SitCenter Management">f2e64d8a1b1f48d08bc1da86cc4bcbba</application>
+        <file_path/>
+        <instance_id>6c2ed365dbc9409052dd2f17d496196e</instance_id>
+        <instance_name>mlldemo</instance_name>
+        <name>sys_ui_section_47fb09061b5f48d08bc1da86cc4bcbed</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="New Section" section_id="47fb09061b5f48d08bc1da86cc4bcbed" sys_domain="global" table="x_snc_sitcenter_ma_sit_case" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>work_notes</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-03 11:02:25</sys_created_on><sys_id>cc0c49061b5f48d08bc1da86cc4bcb8b</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_snc_sitcenter_ma_sit_case" sys_domain="global" view="Default view">47fb09061b5f48d08bc1da86cc4bcbed</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-03 11:02:25</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-03 11:02:25</sys_created_on><sys_id>0c0c49061b5f48d08bc1da86cc4bcb98</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_snc_sitcenter_ma_sit_case" sys_domain="global" view="Default view">47fb09061b5f48d08bc1da86cc4bcbed</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-03 11:02:25</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>inline_checklist_macro</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-03 11:02:25</sys_created_on><sys_id>800c49061b5f48d08bc1da86cc4bcb99</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter display_value="Checklist">ade76621c3200200e280dccdf3d3ae9a</sys_ui_formatter><sys_ui_section caption="New Section" display_value="New Section" name="x_snc_sitcenter_ma_sit_case" sys_domain="global" view="Default view">47fb09061b5f48d08bc1da86cc4bcbed</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-03 11:02:25</sys_updated_on><sys_user/><type>formatter</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-03 11:02:25</sys_created_on><sys_id>480c49061b5f48d08bc1da86cc4bcb99</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_snc_sitcenter_ma_sit_case" sys_domain="global" view="Default view">47fb09061b5f48d08bc1da86cc4bcbed</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-03 11:02:25</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>short_description</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-03 11:02:25</sys_created_on><sys_id>cc0c49061b5f48d08bc1da86cc4bcb99</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_snc_sitcenter_ma_sit_case" sys_domain="global" view="Default view">47fb09061b5f48d08bc1da86cc4bcbed</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-03 11:02:25</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>customer_info</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-03 11:02:25</sys_created_on><sys_id>440c49061b5f48d08bc1da86cc4bcb9a</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_snc_sitcenter_ma_sit_case" sys_domain="global" view="Default view">47fb09061b5f48d08bc1da86cc4bcbed</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-03 11:02:25</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>description</element><position>6</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-03 11:02:25</sys_created_on><sys_id>c80c49061b5f48d08bc1da86cc4bcb9a</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_snc_sitcenter_ma_sit_case" sys_domain="global" view="Default view">47fb09061b5f48d08bc1da86cc4bcbed</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-03 11:02:25</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>activity.xml</element><position>7</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-03 11:02:25</sys_created_on><sys_id>400c49061b5f48d08bc1da86cc4bcb9b</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter><sys_ui_section caption="New Section" display_value="New Section" name="x_snc_sitcenter_ma_sit_case" sys_domain="global" view="Default view">47fb09061b5f48d08bc1da86cc4bcbed</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-03 11:02:25</sys_updated_on><sys_user/><type>formatter</type></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>New Section</caption><header>false</header><name>x_snc_sitcenter_ma_sit_case</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-03 11:02:22</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>47fb09061b5f48d08bc1da86cc4bcbed</sys_id><sys_mod_count>0</sys_mod_count><sys_name>New Section</sys_name><sys_overrides/><sys_package display_value="SitCenter Management" source="x_snc_sitcenter_ma">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_package><sys_policy/><sys_scope display_value="SitCenter Management">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_scope><sys_update_name>sys_ui_section_47fb09061b5f48d08bc1da86cc4bcbed</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-03 11:02:22</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>1223287248</payload_hash>
+        <record_name>SIT Case</record_name>
+        <reverted_from/>
+        <source>fae64d8a1b1f48d08bc1da86cc4bcbbc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-03 11:02:25</sys_created_on>
+        <sys_id>840c49061b5f48d08bc1da86cc4bcbb7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170a00fa9ab0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-03 11:02:25</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>000c4906cf5f48d0d7a76a8c95791ab7</update_guid>
+        <update_guid_history>000c4906cf5f48d0d7a76a8c95791ab7:1223287248</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-03 11:03:23</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>3ccd0691e7b041c09f5a6cd91712bf90</sys_id>
+        <sys_metadata>47fb09061b5f48d08bc1da86cc4bcbed</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Section</sys_name>
+        <sys_package display_value="SitCenter Management" source="x_snc_sitcenter_ma">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_package>
+        <sys_parent display_value="SIT Case">cac7490e1b1f48d08bc1da86cc4bcb8a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="SitCenter Management">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_scope>
+        <sys_scope_delete display_value="">47ab8d9cb5dd4894a07d652183944890</sys_scope_delete>
+        <sys_update_name>sys_ui_section_47fb09061b5f48d08bc1da86cc4bcbed</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_47fb09061b5f48d08bc1da86cc4bcbed">840c49061b5f48d08bc1da86cc4bcbb7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-03 11:03:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="x_snc_sitcenter_ma_sit_case" version="2" view="">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="SIT Case - Default view" name="x_snc_sitcenter_ma_sit_case" related_list="NULL" sys_domain="global" view="Default view">a38f058a1b5f48d08bc1da86cc4bcb94</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>x_snc_sitcenter_ma_sit_task.parent</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-03 11:17:57</sys_created_on>
+            <sys_id>ef8f058a1b5f48d08bc1da86cc4bcb95</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-03 11:17:57</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>SIT Case - Default view</calculated_name>
+            <filter/>
+            <name>x_snc_sitcenter_ma_sit_case</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-03 11:17:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a38f058a1b5f48d08bc1da86cc4bcb94</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>SIT Case - Default view</sys_name>
+            <sys_package display_value="SitCenter Management" source="x_snc_sitcenter_ma">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="SitCenter Management">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_scope>
+            <sys_update_name>sys_ui_related_x_snc_sitcenter_ma_sit_case_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-03 11:17:57</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

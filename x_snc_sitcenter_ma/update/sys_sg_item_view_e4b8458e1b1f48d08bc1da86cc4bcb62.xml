@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_view">
+    <sys_sg_item_view action="INSERT_OR_UPDATE">
+        <data_item/>
+        <dependency_fields>state,number,short_description,opened_by,opened_by.avatar,priority</dependency_fields>
+        <item_view_json>{"Children":[{"Children":[{"Children":[{"studio_template_field_id":"E1","TextAlignment":"Center","MaxLines":1,"TextColor":"#293e40","CellId":"state","CornerRadius":2,"Font":{"Weight":"semibold","Size":13},"Text":"","Width":100,"Height":21,"BackgroundColor":"#f1f1f1","Type":"Text"}],"Alignment":"Left","Orientation":"Vertical","Distribution":"Auto","Margin":{"Right":12},"Type":"ViewGroup"},{"Children":[{"studio_template_field_id":"E2","TextAlignment":"Right","MaxLines":1,"TextColor":"#7d8a8c","CellId":"number","Font":{"Weight":"regular","Size":13},"Text":"","Type":"Text"}],"Alignment":"Right","Orientation":"Vertical","Distribution":"Auto","Type":"ViewGroup"}],"Alignment":"Stretch","Orientation":"Horizontal","Distribution":"Equal","Type":"ViewGroup"},{"studio_template_field_id":"E3","TextAlignment":"Left","MaxLines":2,"TextColor":"#293e40","CellId":"short_description","Font":{"Weight":"regular","Size":18},"Text":"","Margin":{"Top":9},"Type":"Text"},{"Children":[{"Children":[{"studio_template_field_id":"E4","studio_template_is_label":true,"TextAlignment":"Left","MaxLines":1,"TextColor":"#7d8a8c","Font":{"Weight":"regular","Size":13},"Text":"${opened_by}","Margin":{"Right":8},"Type":"Text"},{"studio_template_field_id":"E5","Scaling":"Fill","CellId":"opened_by.avatar","CornerRadius":11,"Width":22,"Height":22,"Margin":{"Right":6},"Type":"Image"},{"studio_template_field_id":"E4","TextAlignment":"Left","MaxLines":1,"TextColor":"#293e40","CellId":"opened_by","Font":{"Weight":"regular","Size":13},"Text":"","Type":"Text"}],"Alignment":"Center","Orientation":"Horizontal","Distribution":"Auto","Margin":{"Top":9},"Type":"ViewGroup"},{"Children":[{"studio_template_field_id":"E6","studio_template_is_label":true,"TextAlignment":"Left","MaxLines":1,"TextColor":"#7d8a8c","Font":{"Weight":"regular","Size":13},"Text":"${priority}","Margin":{"Right":8},"Type":"Text"},{"studio_template_field_id":"E6","TextAlignment":"Left","MaxLines":1,"TextColor":"#293e40","CellId":"priority","Font":{"Weight":"regular","Size":13},"Text":"","Type":"Text"}],"Alignment":"Center","Orientation":"Horizontal","Distribution":"Auto","Margin":{"Top":7},"Type":"ViewGroup"}],"Alignment":"Left","Orientation":"Vertical","Distribution":"Auto","Type":"ViewGroup"}],"Alignment":"Stretch","Orientation":"Vertical","Distribution":"Auto","studio_card_id":"9599488923452300a8ed7f4fc7bf652e","Margin":{"Top":17,"Bottom":15},"Type":"ViewGroup"}</item_view_json>
+        <name>SIT Task Detail Screen Item View</name>
+        <short_description/>
+        <sys_class_name>sys_sg_item_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-03 10:47:59</sys_created_on>
+        <sys_id>e4b8458e1b1f48d08bc1da86cc4bcb62</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SIT Task Detail Screen Item View</sys_name>
+        <sys_package display_value="SitCenter Management" source="x_snc_sitcenter_ma">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SitCenter Management">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_scope>
+        <sys_update_name>sys_sg_item_view_e4b8458e1b1f48d08bc1da86cc4bcb62</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-03 10:47:59</sys_updated_on>
+        <table>x_snc_sitcenter_ma_sit_task</table>
+        <ui_styles/>
+    </sys_sg_item_view>
+    <sys_translated_text action="delete_multiple" query="documentkey=e4b8458e1b1f48d08bc1da86cc4bcb62"/>
+</record_update>

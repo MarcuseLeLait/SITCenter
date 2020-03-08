@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream">
+    <sys_sg_item_stream action="INSERT_OR_UPDATE">
+        <data_item display_value="All Open SIT Cases">764f1d861bdf48d08bc1da86cc4bcb0c</data_item>
+        <interleaved_field/>
+        <name>All Open SIT Cases Item Stream</name>
+        <sys_class_name>sys_sg_item_stream</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-03 12:27:59</sys_created_on>
+        <sys_id>ad9f19c61bdf48d08bc1da86cc4bcb4a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>All Open SIT Cases Item Stream</sys_name>
+        <sys_package display_value="SitCenter Management" source="x_snc_sitcenter_ma">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SitCenter Management">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_scope>
+        <sys_update_name>sys_sg_item_stream_ad9f19c61bdf48d08bc1da86cc4bcb4a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-03 12:27:59</sys_updated_on>
+        <table>x_snc_sitcenter_ma_sit_case</table>
+    </sys_sg_item_stream>
+</record_update>

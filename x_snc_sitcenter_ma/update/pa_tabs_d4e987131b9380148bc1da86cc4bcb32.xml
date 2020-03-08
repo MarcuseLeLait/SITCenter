@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_tabs">
+    <pa_tabs action="INSERT_OR_UPDATE">
+        <canvas_page display_value="PA SIT Center Managemen - New Tab">94e987131b9380148bc1da86cc4bcb30</canvas_page>
+        <name>SIT Center Managemen - New Tab</name>
+        <page display_value="PA SIT Center Managemen - New Tab">90e987131b9380148bc1da86cc4bcb2f</page>
+        <sys_class_name>pa_tabs</sys_class_name>
+        <sys_created_by>markus.loehle</sys_created_by>
+        <sys_created_on>2020-03-07 17:24:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d4e987131b9380148bc1da86cc4bcb32</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SIT Center Managemen - New Tab</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="SitCenter Management" source="x_snc_sitcenter_ma">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SitCenter Management">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_scope>
+        <sys_update_name>pa_tabs_d4e987131b9380148bc1da86cc4bcb32</sys_update_name>
+        <sys_updated_by>markus.loehle</sys_updated_by>
+        <sys_updated_on>2020-03-07 17:24:48</sys_updated_on>
+    </pa_tabs>
+</record_update>

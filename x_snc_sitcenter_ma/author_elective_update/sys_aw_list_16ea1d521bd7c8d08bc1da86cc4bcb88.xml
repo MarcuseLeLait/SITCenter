@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_aw_list">
+    <sys_aw_list action="DELETE">
+        <active>true</active>
+        <category display_value="SIT Tasks">345f2ac21bd788d08bc1da86cc4bcbd3</category>
+        <columns>number,short_description,due_date,assigned_to,priority,state</columns>
+        <condition table="x_snc_sitcenter_ma_sit_task">active=true^ORstateIN-5,1,2^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item display_value="-5,1,2" endquery="false" field="state" goto="false" newquery="false" operator="IN" or="true" value="-5,1,2"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <groups/>
+        <list_attributes/>
+        <order>100</order>
+        <roles/>
+        <sys_class_name>sys_aw_list</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-04 06:47:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>16ea1d521bd7c8d08bc1da86cc4bcb88</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>All Open Tasks</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="SitCenter Management" source="x_snc_sitcenter_ma">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SitCenter Management">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_scope>
+        <sys_update_name>sys_aw_list_16ea1d521bd7c8d08bc1da86cc4bcb88</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-04 06:47:41</sys_updated_on>
+        <table>x_snc_sitcenter_ma_sit_task</table>
+        <title>All Open Tasks</title>
+        <workspace display_value="SitCenter Management">ecb499d61b97c8d08bc1da86cc4bcbf1</workspace>
+    </sys_aw_list>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SitCenter Management">f2e64d8a1b1f48d08bc1da86cc4bcbba</application>
+        <file_path/>
+        <instance_id>6c2ed365dbc9409052dd2f17d496196e</instance_id>
+        <instance_name>mlldemo</instance_name>
+        <name>sys_aw_list_16ea1d521bd7c8d08bc1da86cc4bcb88</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_aw_list"><sys_aw_list action="INSERT_OR_UPDATE"><active>true</active><category display_value="SIT Tasks">345f2ac21bd788d08bc1da86cc4bcbd3</category><columns>number,short_description,due_date,assigned_to,priority,state</columns><condition table="x_snc_sitcenter_ma_sit_task">active=true^ORstateIN-5,1,2^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/><item display_value="-5,1,2" endquery="false" field="state" goto="false" newquery="false" operator="IN" or="true" value="-5,1,2"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></condition><groups/><list_attributes/><order>100</order><roles/><sys_class_name>sys_aw_list</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-04 06:47:41</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>16ea1d521bd7c8d08bc1da86cc4bcb88</sys_id><sys_mod_count>0</sys_mod_count><sys_name>All Open Tasks</sys_name><sys_overrides/><sys_package display_value="SitCenter Management" source="x_snc_sitcenter_ma">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_package><sys_policy/><sys_scope display_value="SitCenter Management">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_scope><sys_update_name>sys_aw_list_16ea1d521bd7c8d08bc1da86cc4bcb88</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-04 06:47:41</sys_updated_on><table>x_snc_sitcenter_ma_sit_task</table><title>All Open Tasks</title><workspace display_value="SitCenter Management">ecb499d61b97c8d08bc1da86cc4bcbf1</workspace></sys_aw_list></record_update>]]></payload>
+        <payload_hash>1325528531</payload_hash>
+        <record_name>All Open Tasks</record_name>
+        <reverted_from/>
+        <source>7427111e1b97c8d08bc1da86cc4bcb07</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-04 06:47:41</sys_created_on>
+        <sys_id>d24bdd521bd7c8d08bc1da86cc4bcb4f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170a44ccc8d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-04 06:47:41</sys_updated_on>
+        <type>Workspace List</type>
+        <update_guid>da4bdd52c8d7c8d061985246f5c39a4e</update_guid>
+        <update_guid_history>da4bdd52c8d7c8d061985246f5c39a4e:1325528531</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>markus.loehle</sys_created_by>
+        <sys_created_on>2020-03-05 13:31:17</sys_created_on>
+        <sys_db_object display_value="" name="sys_aw_list">sys_aw_list</sys_db_object>
+        <sys_id>01245cbcb112437e861c174dea13f2c4</sys_id>
+        <sys_metadata>16ea1d521bd7c8d08bc1da86cc4bcb88</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>All Open Tasks</sys_name>
+        <sys_package display_value="SitCenter Management" source="x_snc_sitcenter_ma">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="SitCenter Management">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_scope>
+        <sys_scope_delete display_value="">47ab8d9cb5dd4894a07d652183944890</sys_scope_delete>
+        <sys_update_name>sys_aw_list_16ea1d521bd7c8d08bc1da86cc4bcb88</sys_update_name>
+        <sys_update_version display_value="sys_aw_list_16ea1d521bd7c8d08bc1da86cc4bcb88">d24bdd521bd7c8d08bc1da86cc4bcb4f</sys_update_version>
+        <sys_updated_by>markus.loehle</sys_updated_by>
+        <sys_updated_on>2020-03-05 13:31:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

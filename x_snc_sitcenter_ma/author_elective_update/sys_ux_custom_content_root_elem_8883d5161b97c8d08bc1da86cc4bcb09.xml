@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_custom_content_root_elem">
+    <sys_ux_custom_content_root_elem action="DELETE">
+        <active>true</active>
+        <applicability>single</applicability>
+        <applicable_page display_value="SitCenter Management">bf731dd21b97c8d08bc1da86cc4bcbd3</applicable_page>
+        <attrs/>
+        <children/>
+        <component display_value="sn-workspace-toolbar-button">c599f5f3b6554fd79cd983bf4ea75968</component>
+        <is_root>true</is_root>
+        <layout/>
+        <macroponent/>
+        <macroponent_config/>
+        <name>Inbox Button</name>
+        <order>200</order>
+        <page display_value="Workspace Core">b70867ad0f603300bb57f4a1ff767e15</page>
+        <parent/>
+        <parent_slot/>
+        <picker/>
+        <picker_condition/>
+        <placeholder display_value="Workspace Toolbar Buttons">1232bfb5730c330075e8f358caf6a7ca</placeholder>
+        <sys_class_name>sys_ux_custom_content_root_elem</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-04 06:13:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8883d5161b97c8d08bc1da86cc4bcb09</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Inbox Button</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="SitCenter Management" source="x_snc_sitcenter_ma">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SitCenter Management">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_scope>
+        <sys_update_name>sys_ux_custom_content_root_elem_8883d5161b97c8d08bc1da86cc4bcb09</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-04 06:13:41</sys_updated_on>
+        <tree_root/>
+    </sys_ux_custom_content_root_elem>
+    <sys_variable_value action="DELETE" query="document_key=8883d5161b97c8d08bc1da86cc4bcb09"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_ux_custom_content_root_elem</document>
+        <document_key>8883d5161b97c8d08bc1da86cc4bcb09</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-04 06:13:41</sys_created_on>
+        <sys_id>0c83d5161b97c8d08bc1da86cc4bcb10</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-04 06:13:41</sys_updated_on>
+        <value>inbox-outline</value>
+        <variable display_value="">674bdc908b8ed17eb631bec92971a228</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_ux_custom_content_root_elem</document>
+        <document_key>8883d5161b97c8d08bc1da86cc4bcb09</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-04 06:13:41</sys_created_on>
+        <sys_id>4883d5161b97c8d08bc1da86cc4bcb10</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-04 06:13:41</sys_updated_on>
+        <value>inbox</value>
+        <variable display_value="">f497a95e69778d0f72f3f0d2df450266</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_ux_custom_content_root_elem</document>
+        <document_key>8883d5161b97c8d08bc1da86cc4bcb09</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-04 06:13:41</sys_created_on>
+        <sys_id>cc83d5161b97c8d08bc1da86cc4bcb10</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-04 06:13:41</sys_updated_on>
+        <value>Inbox</value>
+        <variable display_value="">b5b65fd20c3c13fbd299dce1ef797184</variable>
+    </sys_variable_value>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SitCenter Management">f2e64d8a1b1f48d08bc1da86cc4bcbba</application>
+        <file_path/>
+        <instance_id>6c2ed365dbc9409052dd2f17d496196e</instance_id>
+        <instance_name>mlldemo</instance_name>
+        <name>sys_ux_custom_content_root_elem_8883d5161b97c8d08bc1da86cc4bcb09</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_custom_content_root_elem"><sys_ux_custom_content_root_elem action="INSERT_OR_UPDATE"><active>true</active><applicability>single</applicability><applicable_page display_value="SitCenter Management">bf731dd21b97c8d08bc1da86cc4bcbd3</applicable_page><attrs/><children/><component display_value="sn-workspace-toolbar-button">c599f5f3b6554fd79cd983bf4ea75968</component><is_root>true</is_root><layout/><macroponent/><macroponent_config/><name>Inbox Button</name><order>200</order><page display_value="Workspace Core">b70867ad0f603300bb57f4a1ff767e15</page><parent/><parent_slot/><picker/><picker_condition/><placeholder display_value="Workspace Toolbar Buttons">1232bfb5730c330075e8f358caf6a7ca</placeholder><sys_class_name>sys_ux_custom_content_root_elem</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-04 06:13:40</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>8883d5161b97c8d08bc1da86cc4bcb09</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Inbox Button</sys_name><sys_overrides/><sys_package display_value="SitCenter Management" source="x_snc_sitcenter_ma">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_package><sys_policy/><sys_scope display_value="SitCenter Management">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_scope><sys_update_name>sys_ux_custom_content_root_elem_8883d5161b97c8d08bc1da86cc4bcb09</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-04 06:13:41</sys_updated_on><tree_root/></sys_ux_custom_content_root_elem><sys_variable_value action="delete_multiple" query="document_key=8883d5161b97c8d08bc1da86cc4bcb09"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_ux_custom_content_root_elem</document><document_key>8883d5161b97c8d08bc1da86cc4bcb09</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-04 06:13:41</sys_created_on><sys_id>0c83d5161b97c8d08bc1da86cc4bcb10</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-04 06:13:41</sys_updated_on><value>inbox-outline</value><variable display_value="">674bdc908b8ed17eb631bec92971a228</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_ux_custom_content_root_elem</document><document_key>8883d5161b97c8d08bc1da86cc4bcb09</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-04 06:13:41</sys_created_on><sys_id>4883d5161b97c8d08bc1da86cc4bcb10</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-04 06:13:41</sys_updated_on><value>inbox</value><variable display_value="">f497a95e69778d0f72f3f0d2df450266</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_ux_custom_content_root_elem</document><document_key>8883d5161b97c8d08bc1da86cc4bcb09</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-04 06:13:41</sys_created_on><sys_id>cc83d5161b97c8d08bc1da86cc4bcb10</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-04 06:13:41</sys_updated_on><value>Inbox</value><variable display_value="">b5b65fd20c3c13fbd299dce1ef797184</variable></sys_variable_value></record_update>]]></payload>
+        <payload_hash>2116128272</payload_hash>
+        <record_name>Inbox Button</record_name>
+        <reverted_from/>
+        <source>fae64d8a1b1f48d08bc1da86cc4bcbbc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-04 06:13:41</sys_created_on>
+        <sys_id>c883d5161b97c8d08bc1da86cc4bcb12</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170a42daa5b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-04 06:13:41</sys_updated_on>
+        <type>UX Custom Content Extension</type>
+        <update_guid>8083d516aa97c8d0322585da8af0c512</update_guid>
+        <update_guid_history>8083d516aa97c8d0322585da8af0c512:2116128272,0883d516d997c8d0882bf78ad2c89e0b:-1403134689</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-04 06:13:44</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_custom_content_root_elem">sys_ux_custom_content_root_elem</sys_db_object>
+        <sys_id>6f36612f924a482ab55cb80efed15ad1</sys_id>
+        <sys_metadata>8883d5161b97c8d08bc1da86cc4bcb09</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Inbox Button</sys_name>
+        <sys_package display_value="SitCenter Management" source="x_snc_sitcenter_ma">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="SitCenter Management">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_scope>
+        <sys_scope_delete display_value="">47ab8d9cb5dd4894a07d652183944890</sys_scope_delete>
+        <sys_update_name>sys_ux_custom_content_root_elem_8883d5161b97c8d08bc1da86cc4bcb09</sys_update_name>
+        <sys_update_version display_value="sys_ux_custom_content_root_elem_8883d5161b97c8d08bc1da86cc4bcb09">c883d5161b97c8d08bc1da86cc4bcb12</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-04 06:13:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

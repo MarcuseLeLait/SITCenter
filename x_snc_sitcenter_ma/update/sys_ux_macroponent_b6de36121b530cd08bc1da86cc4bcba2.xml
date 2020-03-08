@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <component_dependencies/>
+        <composition>[ {
+  "elementId" : "ckhhdeffacjaaaaaaccddhhhlsmqpcggaj",
+  "elementLabel" : "Container",
+  "propertyValues" : {
+    "label" : "",
+    "type" : "default",
+    "bgvar" : "",
+    "border" : false,
+    "canCollapse" : false,
+    "collapsed" : false
+  },
+  "slot" : "ck7de5acj00033h7lflxuohfn",
+  "definition" : {
+    "id" : "80653115e23949b501e719ae9b0b42a6",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "composition" : [ {
+      "elementId" : "ckhhdeffcjjoaaaaaahhddhhhljkqiieeacf",
+      "elementLabel" : "Container",
+      "propertyValues" : {
+        "label" : "",
+        "type" : "default",
+        "bgvar" : "",
+        "border" : false,
+        "canCollapse" : false,
+        "collapsed" : false
+      },
+      "slot" : "ck7de5c9o00083h7ll1x0r57a",
+      "definition" : {
+        "id" : "80653115e23949b501e719ae9b0b42a6",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : {
+        "composition" : [ {
+          "elementId" : "ckhhetddvffyaaaaaasddhhhleeenuxpau",
+          "elementLabel" : "Container",
+          "propertyValues" : {
+            "label" : "",
+            "type" : "default",
+            "bgvar" : "",
+            "border" : false,
+            "canCollapse" : false,
+            "collapsed" : false
+          },
+          "slot" : "ck7et3v5y000t3h7lick4zhm7",
+          "definition" : {
+            "id" : "80653115e23949b501e719ae9b0b42a6",
+            "type" : "MACROPONENT"
+          },
+          "overrides" : {
+            "composition" : [ {
+              "elementId" : "ckhhdeffliicaaaaaacddhhhlgmddlhhskm",
+              "elementLabel" : "Image",
+              "propertyValues" : {
+                "alt" : "",
+                "src" : "/SitCenter.jpg",
+                "fit" : "fill",
+                "position" : "top left",
+                "height" : ""
+              },
+              "slot" : "ck7de5l8c000d3h7lfvqpbcwa",
+              "definition" : {
+                "id" : "15fe506403f8a98575b6df59008ea8f1",
+                "type" : "MACROPONENT"
+              },
+              "overrides" : null
+            }, {
+              "elementId" : "ckhhhwphhnwaaaaaabddhhhlwcessntee",
+              "elementLabel" : "Container",
+              "propertyValues" : {
+                "label" : "",
+                "type" : "default",
+                "bgvar" : "",
+                "border" : false,
+                "canCollapse" : false,
+                "collapsed" : false
+              },
+              "slot" : "ck7hwp7nx000c3h7lnpijefka",
+              "definition" : {
+                "id" : "80653115e23949b501e719ae9b0b42a6",
+                "type" : "MACROPONENT"
+              },
+              "overrides" : {
+                "composition" : [ {
+                  "elementId" : "ckhhhwrccddraaaaaajddhhhljddallffv",
+                  "elementLabel" : "Image",
+                  "propertyValues" : {
+                    "alt" : "",
+                    "src" : "/white.jpg",
+                    "fit" : "cover",
+                    "position" : "center center",
+                    "height" : ""
+                  },
+                  "slot" : "ck7hwr23s000k3h7lwsl54cis",
+                  "definition" : {
+                    "id" : "15fe506403f8a98575b6df59008ea8f1",
+                    "type" : "MACROPONENT"
+                  },
+                  "overrides" : null
+                } ],
+                "layout" : {
+                  "default" : {
+                    "type" : "rowColumn",
+                    "root" : {"type":"row","columns":[{"type":"column","slotName":"ck7hwr23s000k3h7lwsl54cis","size":"12","rows":[],"id":"ck7hwr23s000m3h7lvdjj9osr"}],"id":"ck7hwr23s000l3h7l6fvatd4r"}
+                  }
+                }
+              }
+            }, {
+              "elementId" : "ckhhhwpbjjxaaaaaafddhhhlbbbcfaaqggz",
+              "elementLabel" : "Container",
+              "propertyValues" : {
+                "label" : "",
+                "type" : "default",
+                "bgvar" : "",
+                "border" : false,
+                "canCollapse" : false,
+                "collapsed" : false
+              },
+              "slot" : "ck7hwpb9x000g3h7lm3vxsgdf",
+              "definition" : {
+                "id" : "80653115e23949b501e719ae9b0b42a6",
+                "type" : "MACROPONENT"
+              },
+              "overrides" : {
+                "composition" : [ {
+                  "elementId" : "ckhhhwtzeedaaaaaaoddhhhleeeeneaggggy",
+                  "elementLabel" : "Image",
+                  "propertyValues" : {
+                    "alt" : "",
+                    "src" : "/white.jpg",
+                    "fit" : "cover",
+                    "position" : "center center",
+                    "height" : ""
+                  },
+                  "slot" : "ck7hwtz4d000p3h7ll72ykyzw",
+                  "definition" : {
+                    "id" : "15fe506403f8a98575b6df59008ea8f1",
+                    "type" : "MACROPONENT"
+                  },
+                  "overrides" : null
+                } ],
+                "layout" : {
+                  "default" : {
+                    "type" : "rowColumn",
+                    "root" : {"type":"row","columns":[{"type":"column","slotName":"ck7hwtz4d000p3h7ll72ykyzw","size":"12","rows":[],"id":"ck7hwtz4d000r3h7l5s78296w"}],"id":"ck7hwtz4d000q3h7lrsvliihg"}
+                  }
+                }
+              }
+            } ],
+            "layout" : {
+              "default" : {
+                "type" : "rowColumn",
+                "root" : {"type":"row","id":"ck7hwoc8g00063h7l9qo36ysy","columns":[{"type":"column","id":"ck7hwp7nx000d3h7lo7d6kgf1","slotName":"ck7hwp7nx000c3h7lnpijefka","size":"4"},{"type":"column","id":"ck7hwoc8g00073h7libbrwhz4","slotName":"ck7de5l8c000d3h7lfvqpbcwa","size":"4"},{"type":"column","id":"ck7hwpb9x000h3h7legtrr5vn","slotName":"ck7hwpb9x000g3h7lm3vxsgdf","size":"4"}]}
+              }
+            }
+          }
+        } ],
+        "layout" : {
+          "default" : {
+            "type" : "rowColumn",
+            "root" : {"type":"row","id":"ck7de5l8c000e3h7ln2m4f2uv","columns":[{"type":"column","id":"ck7et3v5y000u3h7lozf2mjfi","slotName":"ck7et3v5y000t3h7lick4zhm7","size":"12"}]}
+          }
+        }
+      }
+    } ],
+    "layout" : {
+      "default" : {
+        "type" : "rowColumn",
+        "root" : {"type":"column","id":"ck7de5c9o00093h7lqoyd9cpi","size":"12","rows":[{"type":"row","id":"ck7de5c9o000a3h7lrbhm7y1w","slotName":"ck7de5c9o00083h7ll1x0r57a"}]}
+      }
+    }
+  }
+} ]</composition>
+        <data/>
+        <events/>
+        <extends display_value="Landing Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <interactions/>
+        <layout>{
+  "default" : {
+    "type" : "rowColumn",
+    "root" : {"type":"row","columns":[{"type":"column","slotName":"ck7de5acj00033h7lflxuohfn","size":"12","rows":[],"id":"ck7de5acj00053h7lpyf4muo5"}],"id":"ck7de5acj00043h7l9ped8qqo"}
+  }
+}</layout>
+        <macroponent_dependencies/>
+        <name>Landing Page SitCenter</name>
+        <props/>
+        <root_component/>
+        <root_component_config/>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-04 14:02:43</sys_created_on>
+        <sys_id>b6de36121b530cd08bc1da86cc4bcba2</sys_id>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_name>Landing Page SitCenter</sys_name>
+        <sys_package display_value="SitCenter Management" source="x_snc_sitcenter_ma">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SitCenter Management">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_scope>
+        <sys_update_name>sys_ux_macroponent_b6de36121b530cd08bc1da86cc4bcba2</sys_update_name>
+        <sys_updated_by>markus.loehle</sys_updated_by>
+        <sys_updated_on>2020-03-07 18:30:25</sys_updated_on>
+    </sys_ux_macroponent>
+</record_update>

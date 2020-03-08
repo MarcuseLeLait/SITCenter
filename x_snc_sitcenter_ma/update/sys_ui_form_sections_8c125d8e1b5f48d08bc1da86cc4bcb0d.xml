@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="8c125d8e1b5f48d08bc1da86cc4bcb0d" sys_domain="global" table="x_snc_sitcenter_ma_sit_case" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-03 11:28:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cc125d8e1b5f48d08bc1da86cc4bcb10</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_sitcenter_ma_sit_case" name="x_snc_sitcenter_ma_sit_case" sys_domain="global" view="daa100a41bc1001049a5993d1d4bcb63">8c125d8e1b5f48d08bc1da86cc4bcb0d</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_sitcenter_ma_sit_case" sys_domain="global" view="daa100a41bc1001049a5993d1d4bcb63">40125d8e1b5f48d08bc1da86cc4bcb0b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-03 11:28:54</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-03 11:28:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8c125d8e1b5f48d08bc1da86cc4bcb11</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_sitcenter_ma_sit_case" name="x_snc_sitcenter_ma_sit_case" sys_domain="global" view="daa100a41bc1001049a5993d1d4bcb63">8c125d8e1b5f48d08bc1da86cc4bcb0d</sys_ui_form>
+            <sys_ui_section caption="Information about the SitCenter Case" display_value="Information about the SitCenter Case" name="x_snc_sitcenter_ma_sit_case" sys_domain="global" view="daa100a41bc1001049a5993d1d4bcb63">08125d8e1b5f48d08bc1da86cc4bcb0c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-03 11:28:54</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_snc_sitcenter_ma_sit_case</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-03-03 11:28:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8c125d8e1b5f48d08bc1da86cc4bcb0d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_sitcenter_ma_sit_case</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="SitCenter Management" source="x_snc_sitcenter_ma">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="SitCenter Management">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_scope>
+            <sys_update_name>sys_ui_form_sections_8c125d8e1b5f48d08bc1da86cc4bcb0d</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-03 11:28:54</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace" name="workspace">daa100a41bc1001049a5993d1d4bcb63</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
