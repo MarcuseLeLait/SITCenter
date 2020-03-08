@@ -9,14 +9,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-03-03 12:27:59</sys_created_on>
         <sys_id>a99f19c61bdf48d08bc1da86cc4bcb45</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>All Open SIT Cases Item View</sys_name>
         <sys_package display_value="SitCenter Management" source="x_snc_sitcenter_ma">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_package>
         <sys_policy/>
         <sys_scope display_value="SitCenter Management">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_scope>
         <sys_update_name>sys_sg_item_view_a99f19c61bdf48d08bc1da86cc4bcb45</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-03 12:46:52</sys_updated_on>
+        <sys_updated_by>markus.loehle</sys_updated_by>
+        <sys_updated_on>2020-03-08 19:24:08</sys_updated_on>
         <table>x_snc_sitcenter_ma_sit_case</table>
         <ui_styles/>
     </sys_sg_item_view>

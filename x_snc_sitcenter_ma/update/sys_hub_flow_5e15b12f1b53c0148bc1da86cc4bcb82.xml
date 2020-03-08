@@ -1,0 +1,1383 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build>glide-orlando-12-11-2019__patch0-hotfix2-01-29-2020</compiler_build>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Send Notification</description>
+        <internal_name>sitcenter_new_case</internal_name>
+        <label_cache>[{"name":"Created_1.current.description","label":"Trigger➛SIT Case Record➛Description","reference":"","reference_display":"Description","type":"string","base_type":"string","parent_table_name":"x_snc_sitcenter_ma_sit_case","column_name":"description"},{"name":"Created_1.current.short_description","label":"Trigger➛SIT Case Record➛Short description","reference":"","reference_display":"Short description","type":"string","base_type":"string","parent_table_name":"x_snc_sitcenter_ma_sit_case","column_name":"short_description"},{"name":"Created_1.current.number","label":"Trigger➛SIT Case Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_snc_sitcenter_ma_sit_case","column_name":"number"},{"name":"Created_1.current","label":"Trigger➛SIT Case Record","reference":"x_snc_sitcenter_ma_sit_case","reference_display":"SIT Case","type":"reference","base_type":"reference","attributes":{}},{"name":"6b57238f-cda5-46e5-88d8-b9b8380947d4.email","label":"1➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <latest_snapshot>de3e8b271b9bc0148bc1da86cc4bcbda</latest_snapshot>
+        <master_snapshot>2446fd6f1b53c0148bc1da86cc4bcb5a</master_snapshot>
+        <name>SITCenter New Case</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id>7046fd6f1b53c0148bc1da86cc4bcbe8</remote_trigger_id>
+        <run_as>system</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>markus.loehle</sys_created_by>
+        <sys_created_on>2020-03-08 05:52:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5e15b12f1b53c0148bc1da86cc4bcb82</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>SITCenter New Case</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="SitCenter Management" source="x_snc_sitcenter_ma">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SitCenter Management">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_scope>
+        <sys_update_name>sys_hub_flow_5e15b12f1b53c0148bc1da86cc4bcb82</sys_update_name>
+        <sys_updated_by>markus.loehle</sys_updated_by>
+        <sys_updated_on>2020-03-08 12:30:34</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=5e15b12f1b53c0148bc1da86cc4bcb82"/>
+    <sys_variable_value action="delete_multiple" query="document_key=5e15b12f1b53c0148bc1da86cc4bcb82"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_snc_sitcenter_ma_sit_case">^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>false</on_update>
+        <run_flow_in>background</run_flow_in>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>markus.loehle</sys_created_by>
+        <sys_created_on>2020-03-08 05:57:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7046fd6f1b53c0148bc1da86cc4bcbe8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="SitCenter Management">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_scope>
+        <sys_updated_by>markus.loehle</sys_updated_by>
+        <sys_updated_on>2020-03-08 05:57:57</sys_updated_on>
+        <table>x_snc_sitcenter_ma_sit_case</table>
+    </sys_flow_record_trigger>
+    <sys_hub_flow_component action="delete_multiple" query="flow=5e15b12f1b53c0148bc1da86cc4bcb82^sys_idNOT IN9295316f1b53c0148bc1da86cc4bcbbd"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">716281160b100300d97d8bf637673ac7</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>716281160b100300d97d8bf637673ac7</compiled_snapshot>
+        <display_text/>
+        <flow display_value="SITCenter New Case">5e15b12f1b53c0148bc1da86cc4bcb82</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>markus.loehle</sys_created_by>
+        <sys_created_on>2020-03-08 05:55:03</sys_created_on>
+        <sys_id>9295316f1b53c0148bc1da86cc4bcbbd</sys_id>
+        <sys_mod_count>32</sys_mod_count>
+        <sys_scope display_value="SitCenter Management">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2020-03-08 12:22:16</sys_updated_on>
+        <ui_id>6b57238f-cda5-46e5-88d8-b9b8380947d4</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=9295316f1b53c0148bc1da86cc4bcbbd"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9295316f1b53c0148bc1da86cc4bcbbd</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>markus.loehle</sys_created_by>
+        <sys_created_on>2020-03-08 05:55:03</sys_created_on>
+        <sys_id>1a95316f1b53c0148bc1da86cc4bcbc0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>markus.loehle</sys_updated_by>
+        <sys_updated_on>2020-03-08 05:55:03</sys_updated_on>
+        <value/>
+        <variable display_value="">4e62c1160b100300d97d8bf637673a10</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9295316f1b53c0148bc1da86cc4bcbbd</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>markus.loehle</sys_created_by>
+        <sys_created_on>2020-03-08 05:55:03</sys_created_on>
+        <sys_id>5695316f1b53c0148bc1da86cc4bcbc0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>markus.loehle</sys_updated_by>
+        <sys_updated_on>2020-03-08 12:21:38</sys_updated_on>
+        <value>markus@familoehle.de</value>
+        <variable display_value="">ce6281160b100300d97d8bf637673ac9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9295316f1b53c0148bc1da86cc4bcbbd</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>markus.loehle</sys_created_by>
+        <sys_created_on>2020-03-08 05:55:03</sys_created_on>
+        <sys_id>da95316f1b53c0148bc1da86cc4bcbc0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>markus.loehle</sys_updated_by>
+        <sys_updated_on>2020-03-08 12:11:40</sys_updated_on>
+        <value/>
+        <variable display_value="">0a62c1160b100300d97d8bf637673a05</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=9295316f1b53c0148bc1da86cc4bcbbd"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>9295316f1b53c0148bc1da86cc4bcbbd</id>
+        <sys_created_by>markus.loehle</sys_created_by>
+        <sys_created_on>2020-03-08 05:55:03</sys_created_on>
+        <sys_id>d295316f1b53c0148bc1da86cc4bcbc0</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>markus.loehle</sys_updated_by>
+        <sys_updated_on>2020-03-08 12:16:48</sys_updated_on>
+        <table>var__m_sys_hub_action_input_716281160b100300d97d8bf637673ac7</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;Dear SITCenter Admin&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;A new SITCenter Case &lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:cc960ba5-50f6-4961-b9cc-a7a7f3fd9076}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:cc960ba5-50f6-4961-b9cc-a7a7f3fd9076}}"&gt;Trigger➛SIT Case Record➛Number&lt;button id="transform_function_facade_cc960ba5-50f6-4961-b9cc-a7a7f3fd9076" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;Subject &amp;raquo;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:4435b41c-c224-400c-a841-f36f1e5f1482}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:4435b41c-c224-400c-a841-f36f1e5f1482}}"&gt;Trigger➛SIT Case Record➛Short description&lt;button id="transform_function_facade_4435b41c-c224-400c-a841-f36f1e5f1482" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&amp;laquo;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;has been&amp;nbsp;created: Please take care and assign it to the appropriate regional HUB/colleague&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>9295316f1b53c0148bc1da86cc4bcbbd</id>
+        <sys_created_by>markus.loehle</sys_created_by>
+        <sys_created_on>2020-03-08 05:55:03</sys_created_on>
+        <sys_id>1295316f1b53c0148bc1da86cc4bcbc0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>markus.loehle</sys_updated_by>
+        <sys_updated_on>2020-03-08 12:11:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_716281160b100300d97d8bf637673ac7</table>
+        <value>New SITCenter Case »{{Created_1.current.short_description}}«</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>9295316f1b53c0148bc1da86cc4bcbbd</id>
+        <sys_created_by>markus.loehle</sys_created_by>
+        <sys_created_on>2020-03-08 05:55:03</sys_created_on>
+        <sys_id>5a95316f1b53c0148bc1da86cc4bcbbf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>markus.loehle</sys_updated_by>
+        <sys_updated_on>2020-03-08 05:55:03</sys_updated_on>
+        <table>var__m_sys_hub_action_input_716281160b100300d97d8bf637673ac7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=5e15b12f1b53c0148bc1da86cc4bcb82^sys_idNOT IN5e95316f1b53c0148bc1da86cc4bcbab"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="SITCenter New Case">5e15b12f1b53c0148bc1da86cc4bcb82</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>markus.loehle</sys_created_by>
+        <sys_created_on>2020-03-08 05:55:03</sys_created_on>
+        <sys_id>5e95316f1b53c0148bc1da86cc4bcbab</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>markus.loehle</sys_updated_by>
+        <sys_updated_on>2020-03-08 12:21:47</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=5e95316f1b53c0148bc1da86cc4bcbab"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>5e95316f1b53c0148bc1da86cc4bcbab</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>markus.loehle</sys_created_by>
+        <sys_created_on>2020-03-08 05:55:03</sys_created_on>
+        <sys_id>9e95316f1b53c0148bc1da86cc4bcbac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>markus.loehle</sys_updated_by>
+        <sys_updated_on>2020-03-08 05:55:03</sys_updated_on>
+        <value>^EQ</value>
+        <variable display_value="">66aadea0c31322002841b63b12d3aebf</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>5e95316f1b53c0148bc1da86cc4bcbab</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>markus.loehle</sys_created_by>
+        <sys_created_on>2020-03-08 05:55:03</sys_created_on>
+        <sys_id>d695316f1b53c0148bc1da86cc4bcbad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>markus.loehle</sys_updated_by>
+        <sys_updated_on>2020-03-08 05:55:03</sys_updated_on>
+        <value>x_snc_sitcenter_ma_sit_case</value>
+        <variable display_value="">cfca92e0c31322002841b63b12d3ae00</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=5e15b12f1b53c0148bc1da86cc4bcb82^sys_idNOT IN1e15b12f1b53c0148bc1da86cc4bcb85"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>5e15b12f1b53c0148bc1da86cc4bcb82</id>
+        <name>SITCenter New Case</name>
+        <sys_created_by>markus.loehle</sys_created_by>
+        <sys_created_on>2020-03-08 05:52:52</sys_created_on>
+        <sys_id>1e15b12f1b53c0148bc1da86cc4bcb85</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>markus.loehle</sys_updated_by>
+        <sys_updated_on>2020-03-08 05:52:52</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=5e15b12f1b53c0148bc1da86cc4bcb82^sys_idNOT IN4295bd2f1b53c0148bc1da86cc4bcbe6,da95316f1b53c0148bc1da86cc4bcba3"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="SITCenter New Case">5e15b12f1b53c0148bc1da86cc4bcb82</model>
+        <model_id>5e15b12f1b53c0148bc1da86cc4bcb82</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_5e15b12f1b53c0148bc1da86cc4bcb82</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>markus.loehle</sys_created_by>
+        <sys_created_on>2020-03-08 05:55:02</sys_created_on>
+        <sys_id>4295bd2f1b53c0148bc1da86cc4bcbe6</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="SitCenter Management">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>markus.loehle</sys_updated_by>
+        <sys_updated_on>2020-03-08 12:21:47</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="SITCenter New Case">5e15b12f1b53c0148bc1da86cc4bcb82</model>
+        <model_id>5e15b12f1b53c0148bc1da86cc4bcb82</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_5e15b12f1b53c0148bc1da86cc4bcb82</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>markus.loehle</sys_created_by>
+        <sys_created_on>2020-03-08 05:55:03</sys_created_on>
+        <sys_id>da95316f1b53c0148bc1da86cc4bcba3</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="SitCenter Management">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>markus.loehle</sys_updated_by>
+        <sys_updated_on>2020-03-08 12:21:47</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="delete_multiple" query="flow=5e15b12f1b53c0148bc1da86cc4bcb82^sys_idNOT IN9295316f1b53c0148bc1da86cc4bcbbd"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">716281160b100300d97d8bf637673ac7</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>716281160b100300d97d8bf637673ac7</compiled_snapshot>
+        <display_text/>
+        <flow display_value="SITCenter New Case">5e15b12f1b53c0148bc1da86cc4bcb82</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>markus.loehle</sys_created_by>
+        <sys_created_on>2020-03-08 05:55:03</sys_created_on>
+        <sys_id>9295316f1b53c0148bc1da86cc4bcbbd</sys_id>
+        <sys_mod_count>32</sys_mod_count>
+        <sys_scope display_value="SitCenter Management">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2020-03-08 12:22:16</sys_updated_on>
+        <ui_id>6b57238f-cda5-46e5-88d8-b9b8380947d4</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=9295316f1b53c0148bc1da86cc4bcbbd"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9295316f1b53c0148bc1da86cc4bcbbd</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>markus.loehle</sys_created_by>
+        <sys_created_on>2020-03-08 05:55:03</sys_created_on>
+        <sys_id>1a95316f1b53c0148bc1da86cc4bcbc0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>markus.loehle</sys_updated_by>
+        <sys_updated_on>2020-03-08 05:55:03</sys_updated_on>
+        <value/>
+        <variable display_value="">4e62c1160b100300d97d8bf637673a10</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9295316f1b53c0148bc1da86cc4bcbbd</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>markus.loehle</sys_created_by>
+        <sys_created_on>2020-03-08 05:55:03</sys_created_on>
+        <sys_id>5695316f1b53c0148bc1da86cc4bcbc0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>markus.loehle</sys_updated_by>
+        <sys_updated_on>2020-03-08 12:21:38</sys_updated_on>
+        <value>markus@familoehle.de</value>
+        <variable display_value="">ce6281160b100300d97d8bf637673ac9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9295316f1b53c0148bc1da86cc4bcbbd</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>markus.loehle</sys_created_by>
+        <sys_created_on>2020-03-08 05:55:03</sys_created_on>
+        <sys_id>da95316f1b53c0148bc1da86cc4bcbc0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>markus.loehle</sys_updated_by>
+        <sys_updated_on>2020-03-08 12:11:40</sys_updated_on>
+        <value/>
+        <variable display_value="">0a62c1160b100300d97d8bf637673a05</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=9295316f1b53c0148bc1da86cc4bcbbd"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>9295316f1b53c0148bc1da86cc4bcbbd</id>
+        <sys_created_by>markus.loehle</sys_created_by>
+        <sys_created_on>2020-03-08 05:55:03</sys_created_on>
+        <sys_id>d295316f1b53c0148bc1da86cc4bcbc0</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>markus.loehle</sys_updated_by>
+        <sys_updated_on>2020-03-08 12:16:48</sys_updated_on>
+        <table>var__m_sys_hub_action_input_716281160b100300d97d8bf637673ac7</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;Dear SITCenter Admin&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;A new SITCenter Case &lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:cc960ba5-50f6-4961-b9cc-a7a7f3fd9076}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:cc960ba5-50f6-4961-b9cc-a7a7f3fd9076}}"&gt;Trigger➛SIT Case Record➛Number&lt;button id="transform_function_facade_cc960ba5-50f6-4961-b9cc-a7a7f3fd9076" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;Subject &amp;raquo;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:4435b41c-c224-400c-a841-f36f1e5f1482}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:4435b41c-c224-400c-a841-f36f1e5f1482}}"&gt;Trigger➛SIT Case Record➛Short description&lt;button id="transform_function_facade_4435b41c-c224-400c-a841-f36f1e5f1482" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&amp;laquo;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;has been&amp;nbsp;created: Please take care and assign it to the appropriate regional HUB/colleague&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>9295316f1b53c0148bc1da86cc4bcbbd</id>
+        <sys_created_by>markus.loehle</sys_created_by>
+        <sys_created_on>2020-03-08 05:55:03</sys_created_on>
+        <sys_id>1295316f1b53c0148bc1da86cc4bcbc0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>markus.loehle</sys_updated_by>
+        <sys_updated_on>2020-03-08 12:11:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_716281160b100300d97d8bf637673ac7</table>
+        <value>New SITCenter Case »{{Created_1.current.short_description}}«</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>9295316f1b53c0148bc1da86cc4bcbbd</id>
+        <sys_created_by>markus.loehle</sys_created_by>
+        <sys_created_on>2020-03-08 05:55:03</sys_created_on>
+        <sys_id>5a95316f1b53c0148bc1da86cc4bcbbf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>markus.loehle</sys_updated_by>
+        <sys_updated_on>2020-03-08 05:55:03</sys_updated_on>
+        <table>var__m_sys_hub_action_input_716281160b100300d97d8bf637673ac7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=5e15b12f1b53c0148bc1da86cc4bcb82^sys_idNOT IN2b1ec7271b9bc0148bc1da86cc4bcb21,671ec7271b9bc0148bc1da86cc4bcb21,af1ec7271b9bc0148bc1da86cc4bcb20,eb1ec7271b9bc0148bc1da86cc4bcb21"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>5e15b12f1b53c0148bc1da86cc4bcb82</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.number}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>markus.loehle</sys_created_by>
+        <sys_created_on>2020-03-08 12:21:47</sys_created_on>
+        <sys_id>2b1ec7271b9bc0148bc1da86cc4bcb21</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="SitCenter Management">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_scope>
+        <sys_updated_by>markus.loehle</sys_updated_by>
+        <sys_updated_on>2020-03-08 12:21:47</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>cc960ba5-50f6-4961-b9cc-a7a7f3fd9076</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>5e15b12f1b53c0148bc1da86cc4bcb82</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.short_description}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>markus.loehle</sys_created_by>
+        <sys_created_on>2020-03-08 12:21:47</sys_created_on>
+        <sys_id>671ec7271b9bc0148bc1da86cc4bcb21</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="SitCenter Management">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_scope>
+        <sys_updated_by>markus.loehle</sys_updated_by>
+        <sys_updated_on>2020-03-08 12:21:47</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>4435b41c-c224-400c-a841-f36f1e5f1482</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>5e15b12f1b53c0148bc1da86cc4bcb82</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.description}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>markus.loehle</sys_created_by>
+        <sys_created_on>2020-03-08 12:21:47</sys_created_on>
+        <sys_id>af1ec7271b9bc0148bc1da86cc4bcb20</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="SitCenter Management">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_scope>
+        <sys_updated_by>markus.loehle</sys_updated_by>
+        <sys_updated_on>2020-03-08 12:21:47</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>b3b543ac-26ed-4fc4-9c26-c111a82cb16b</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>5e15b12f1b53c0148bc1da86cc4bcb82</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>markus.loehle</sys_created_by>
+        <sys_created_on>2020-03-08 12:21:47</sys_created_on>
+        <sys_id>eb1ec7271b9bc0148bc1da86cc4bcb21</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="SitCenter Management">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_scope>
+        <sys_updated_by>markus.loehle</sys_updated_by>
+        <sys_updated_on>2020-03-08 12:21:47</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>84d2fa32-d3b8-485b-b611-b3bc4b56cd27</ui_id>
+    </sys_hub_pill_compound>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_5e15b12f1b53c0148bc1da86cc4bcb82^sys_idNOT IN5e95316f1b53c0148bc1da86cc4bcba8,da95bd2f1b53c0148bc1da86cc4bcbee"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_5e15b12f1b53c0148bc1da86cc4bcb82</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>markus.loehle</sys_created_by>
+        <sys_created_on>2020-03-08 05:55:03</sys_created_on>
+        <sys_id>5e95316f1b53c0148bc1da86cc4bcba8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="SitCenter Management" source="x_snc_sitcenter_ma">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SitCenter Management">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>markus.loehle</sys_updated_by>
+        <sys_updated_on>2020-03-08 05:55:03</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_5e15b12f1b53c0148bc1da86cc4bcb82</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>markus.loehle</sys_created_by>
+        <sys_created_on>2020-03-08 05:55:03</sys_created_on>
+        <sys_id>da95bd2f1b53c0148bc1da86cc4bcbee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="SitCenter Management" source="x_snc_sitcenter_ma">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SitCenter Management">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>markus.loehle</sys_updated_by>
+        <sys_updated_on>2020-03-08 05:55:03</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=5e15b12f1b53c0148bc1da86cc4bcb82^sys_idNOT INbc46fd6f1b53c0148bc1da86cc4bcbe8"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"bc46fd6f1b53c0148bc1da86cc4bcbe8","name":"plan"}}</plan>
+        <plan_id>5e15b12f1b53c0148bc1da86cc4bcb82</plan_id>
+        <snapshot>de3e8b271b9bc0148bc1da86cc4bcbda</snapshot>
+        <sys_created_by>markus.loehle</sys_created_by>
+        <sys_created_on>2020-03-08 05:57:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bc46fd6f1b53c0148bc1da86cc4bcbe8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>markus.loehle</sys_updated_by>
+        <sys_updated_on>2020-03-08 12:21:47</sys_updated_on>
+        <trigger display_value="">7046fd6f1b53c0148bc1da86cc4bcbe8</trigger>
+    </sys_flow_trigger_plan>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Send Notification</description>
+        <internal_name>sitcenter_new_case</internal_name>
+        <label_cache>[{"name":"Created_1.current","label":"Trigger➛SIT Case Record","reference":"x_snc_sitcenter_ma_sit_case","reference_display":"SIT Case","type":"reference","base_type":"reference","attributes":{}},{"name":"6b57238f-cda5-46e5-88d8-b9b8380947d4.email","label":"1➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master>true</master>
+        <name>SITCenter New Case</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="SITCenter New Case">5e15b12f1b53c0148bc1da86cc4bcb82</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>markus.loehle</sys_created_by>
+        <sys_created_on>2020-03-08 05:57:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2446fd6f1b53c0148bc1da86cc4bcb5a</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="SitCenter Management">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>markus.loehle</sys_updated_by>
+        <sys_updated_on>2020-03-08 12:21:46</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=2446fd6f1b53c0148bc1da86cc4bcb5a"/>
+    <sys_variable_value action="delete_multiple" query="document_key=2446fd6f1b53c0148bc1da86cc4bcb5a"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=2446fd6f1b53c0148bc1da86cc4bcb5a^sys_idNOT INe446fd6f1b53c0148bc1da86cc4bcbd7"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">716281160b100300d97d8bf637673ac7</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <comment/>
+        <compiled_snapshot>716281160b100300d97d8bf637673ac7</compiled_snapshot>
+        <display_text/>
+        <flow display_value="SITCenter New Case">2446fd6f1b53c0148bc1da86cc4bcb5a</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>markus.loehle</sys_created_by>
+        <sys_created_on>2020-03-08 05:57:57</sys_created_on>
+        <sys_id>e446fd6f1b53c0148bc1da86cc4bcbd7</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope display_value="SitCenter Management">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_scope>
+        <sys_updated_by>markus.loehle</sys_updated_by>
+        <sys_updated_on>2020-03-08 12:21:46</sys_updated_on>
+        <ui_id>6b57238f-cda5-46e5-88d8-b9b8380947d4</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e446fd6f1b53c0148bc1da86cc4bcbd7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e446fd6f1b53c0148bc1da86cc4bcbd7</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>markus.loehle</sys_created_by>
+        <sys_created_on>2020-03-08 05:57:57</sys_created_on>
+        <sys_id>3446fd6f1b53c0148bc1da86cc4bcbd9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>markus.loehle</sys_updated_by>
+        <sys_updated_on>2020-03-08 12:21:45</sys_updated_on>
+        <value>markus@familoehle.de</value>
+        <variable display_value="">ce6281160b100300d97d8bf637673ac9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e446fd6f1b53c0148bc1da86cc4bcbd7</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>markus.loehle</sys_created_by>
+        <sys_created_on>2020-03-08 05:57:57</sys_created_on>
+        <sys_id>b846fd6f1b53c0148bc1da86cc4bcbd9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>markus.loehle</sys_updated_by>
+        <sys_updated_on>2020-03-08 12:13:30</sys_updated_on>
+        <value/>
+        <variable display_value="">0a62c1160b100300d97d8bf637673a05</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e446fd6f1b53c0148bc1da86cc4bcbd7</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>markus.loehle</sys_created_by>
+        <sys_created_on>2020-03-08 05:57:57</sys_created_on>
+        <sys_id>f446fd6f1b53c0148bc1da86cc4bcbd9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>markus.loehle</sys_updated_by>
+        <sys_updated_on>2020-03-08 05:57:57</sys_updated_on>
+        <value/>
+        <variable display_value="">4e62c1160b100300d97d8bf637673a10</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e446fd6f1b53c0148bc1da86cc4bcbd7"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>e446fd6f1b53c0148bc1da86cc4bcbd7</id>
+        <sys_created_by>markus.loehle</sys_created_by>
+        <sys_created_on>2020-03-08 05:57:57</sys_created_on>
+        <sys_id>b046fd6f1b53c0148bc1da86cc4bcbd9</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>markus.loehle</sys_updated_by>
+        <sys_updated_on>2020-03-08 12:16:54</sys_updated_on>
+        <table>var__m_sys_hub_action_input_716281160b100300d97d8bf637673ac7</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;Dear SITCenter Admin&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;A new SITCenter Case &lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:cc960ba5-50f6-4961-b9cc-a7a7f3fd9076}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:cc960ba5-50f6-4961-b9cc-a7a7f3fd9076}}"&gt;Trigger➛SIT Case Record➛Number&lt;button id="transform_function_facade_cc960ba5-50f6-4961-b9cc-a7a7f3fd9076" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;Subject &amp;raquo;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:4435b41c-c224-400c-a841-f36f1e5f1482}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:4435b41c-c224-400c-a841-f36f1e5f1482}}"&gt;Trigger➛SIT Case Record➛Short description&lt;button id="transform_function_facade_4435b41c-c224-400c-a841-f36f1e5f1482" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&amp;laquo;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;has been&amp;nbsp;created: Please take care and assign it to the appropriate regional HUB/colleague&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>e446fd6f1b53c0148bc1da86cc4bcbd7</id>
+        <sys_created_by>markus.loehle</sys_created_by>
+        <sys_created_on>2020-03-08 05:57:57</sys_created_on>
+        <sys_id>fc46fd6f1b53c0148bc1da86cc4bcbd8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>markus.loehle</sys_updated_by>
+        <sys_updated_on>2020-03-08 12:13:30</sys_updated_on>
+        <table>var__m_sys_hub_action_input_716281160b100300d97d8bf637673ac7</table>
+        <value>New SITCenter Case »{{Created_1.current.short_description}}«</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>e446fd6f1b53c0148bc1da86cc4bcbd7</id>
+        <sys_created_by>markus.loehle</sys_created_by>
+        <sys_created_on>2020-03-08 05:57:57</sys_created_on>
+        <sys_id>3c46fd6f1b53c0148bc1da86cc4bcbd8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>markus.loehle</sys_updated_by>
+        <sys_updated_on>2020-03-08 05:57:57</sys_updated_on>
+        <table>var__m_sys_hub_action_input_716281160b100300d97d8bf637673ac7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=2446fd6f1b53c0148bc1da86cc4bcb5a^sys_idNOT INbc46fd6f1b53c0148bc1da86cc4bcbd9"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="SITCenter New Case">2446fd6f1b53c0148bc1da86cc4bcb5a</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>markus.loehle</sys_created_by>
+        <sys_created_on>2020-03-08 05:57:57</sys_created_on>
+        <sys_id>bc46fd6f1b53c0148bc1da86cc4bcbd9</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>markus.loehle</sys_updated_by>
+        <sys_updated_on>2020-03-08 12:21:47</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=bc46fd6f1b53c0148bc1da86cc4bcbd9"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>bc46fd6f1b53c0148bc1da86cc4bcbd9</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>markus.loehle</sys_created_by>
+        <sys_created_on>2020-03-08 05:57:57</sys_created_on>
+        <sys_id>3446fd6f1b53c0148bc1da86cc4bcbdb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>markus.loehle</sys_updated_by>
+        <sys_updated_on>2020-03-08 05:57:57</sys_updated_on>
+        <value>^EQ</value>
+        <variable display_value="">66aadea0c31322002841b63b12d3aebf</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>bc46fd6f1b53c0148bc1da86cc4bcbd9</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>markus.loehle</sys_created_by>
+        <sys_created_on>2020-03-08 05:57:57</sys_created_on>
+        <sys_id>f446fd6f1b53c0148bc1da86cc4bcbdb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>markus.loehle</sys_updated_by>
+        <sys_updated_on>2020-03-08 05:57:57</sys_updated_on>
+        <value>x_snc_sitcenter_ma_sit_case</value>
+        <variable display_value="">cfca92e0c31322002841b63b12d3ae00</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=2446fd6f1b53c0148bc1da86cc4bcb5a^sys_idNOT IN6446fd6f1b53c0148bc1da86cc4bcb5b"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>2446fd6f1b53c0148bc1da86cc4bcb5a</id>
+        <name>SITCenter New Case</name>
+        <sys_created_by>markus.loehle</sys_created_by>
+        <sys_created_on>2020-03-08 05:57:56</sys_created_on>
+        <sys_id>6446fd6f1b53c0148bc1da86cc4bcb5b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>markus.loehle</sys_updated_by>
+        <sys_updated_on>2020-03-08 05:57:56</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=2446fd6f1b53c0148bc1da86cc4bcb5a^sys_idNOT IN2846fd6f1b53c0148bc1da86cc4bcbc7,6446fd6f1b53c0148bc1da86cc4bcb5c"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="SITCenter New Case">2446fd6f1b53c0148bc1da86cc4bcb5a</model>
+        <model_id>2446fd6f1b53c0148bc1da86cc4bcb5a</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_2446fd6f1b53c0148bc1da86cc4bcb5a</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>markus.loehle</sys_created_by>
+        <sys_created_on>2020-03-08 05:57:56</sys_created_on>
+        <sys_id>2846fd6f1b53c0148bc1da86cc4bcbc7</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="SitCenter Management">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>markus.loehle</sys_updated_by>
+        <sys_updated_on>2020-03-08 12:21:46</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="SITCenter New Case">2446fd6f1b53c0148bc1da86cc4bcb5a</model>
+        <model_id>2446fd6f1b53c0148bc1da86cc4bcb5a</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_2446fd6f1b53c0148bc1da86cc4bcb5a</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>markus.loehle</sys_created_by>
+        <sys_created_on>2020-03-08 05:57:56</sys_created_on>
+        <sys_id>6446fd6f1b53c0148bc1da86cc4bcb5c</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="SitCenter Management">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>markus.loehle</sys_updated_by>
+        <sys_updated_on>2020-03-08 12:21:45</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="delete_multiple" query="flow=2446fd6f1b53c0148bc1da86cc4bcb5a^sys_idNOT INe446fd6f1b53c0148bc1da86cc4bcbd7"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">716281160b100300d97d8bf637673ac7</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <comment/>
+        <compiled_snapshot>716281160b100300d97d8bf637673ac7</compiled_snapshot>
+        <display_text/>
+        <flow display_value="SITCenter New Case">2446fd6f1b53c0148bc1da86cc4bcb5a</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>markus.loehle</sys_created_by>
+        <sys_created_on>2020-03-08 05:57:57</sys_created_on>
+        <sys_id>e446fd6f1b53c0148bc1da86cc4bcbd7</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope display_value="SitCenter Management">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_scope>
+        <sys_updated_by>markus.loehle</sys_updated_by>
+        <sys_updated_on>2020-03-08 12:21:46</sys_updated_on>
+        <ui_id>6b57238f-cda5-46e5-88d8-b9b8380947d4</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e446fd6f1b53c0148bc1da86cc4bcbd7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e446fd6f1b53c0148bc1da86cc4bcbd7</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>markus.loehle</sys_created_by>
+        <sys_created_on>2020-03-08 05:57:57</sys_created_on>
+        <sys_id>3446fd6f1b53c0148bc1da86cc4bcbd9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>markus.loehle</sys_updated_by>
+        <sys_updated_on>2020-03-08 12:21:45</sys_updated_on>
+        <value>markus@familoehle.de</value>
+        <variable display_value="">ce6281160b100300d97d8bf637673ac9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e446fd6f1b53c0148bc1da86cc4bcbd7</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>markus.loehle</sys_created_by>
+        <sys_created_on>2020-03-08 05:57:57</sys_created_on>
+        <sys_id>b846fd6f1b53c0148bc1da86cc4bcbd9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>markus.loehle</sys_updated_by>
+        <sys_updated_on>2020-03-08 12:13:30</sys_updated_on>
+        <value/>
+        <variable display_value="">0a62c1160b100300d97d8bf637673a05</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e446fd6f1b53c0148bc1da86cc4bcbd7</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>markus.loehle</sys_created_by>
+        <sys_created_on>2020-03-08 05:57:57</sys_created_on>
+        <sys_id>f446fd6f1b53c0148bc1da86cc4bcbd9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>markus.loehle</sys_updated_by>
+        <sys_updated_on>2020-03-08 05:57:57</sys_updated_on>
+        <value/>
+        <variable display_value="">4e62c1160b100300d97d8bf637673a10</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e446fd6f1b53c0148bc1da86cc4bcbd7"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>e446fd6f1b53c0148bc1da86cc4bcbd7</id>
+        <sys_created_by>markus.loehle</sys_created_by>
+        <sys_created_on>2020-03-08 05:57:57</sys_created_on>
+        <sys_id>b046fd6f1b53c0148bc1da86cc4bcbd9</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>markus.loehle</sys_updated_by>
+        <sys_updated_on>2020-03-08 12:16:54</sys_updated_on>
+        <table>var__m_sys_hub_action_input_716281160b100300d97d8bf637673ac7</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;Dear SITCenter Admin&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;A new SITCenter Case &lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:cc960ba5-50f6-4961-b9cc-a7a7f3fd9076}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:cc960ba5-50f6-4961-b9cc-a7a7f3fd9076}}"&gt;Trigger➛SIT Case Record➛Number&lt;button id="transform_function_facade_cc960ba5-50f6-4961-b9cc-a7a7f3fd9076" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;Subject &amp;raquo;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:4435b41c-c224-400c-a841-f36f1e5f1482}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:4435b41c-c224-400c-a841-f36f1e5f1482}}"&gt;Trigger➛SIT Case Record➛Short description&lt;button id="transform_function_facade_4435b41c-c224-400c-a841-f36f1e5f1482" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&amp;laquo;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;has been&amp;nbsp;created: Please take care and assign it to the appropriate regional HUB/colleague&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>e446fd6f1b53c0148bc1da86cc4bcbd7</id>
+        <sys_created_by>markus.loehle</sys_created_by>
+        <sys_created_on>2020-03-08 05:57:57</sys_created_on>
+        <sys_id>fc46fd6f1b53c0148bc1da86cc4bcbd8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>markus.loehle</sys_updated_by>
+        <sys_updated_on>2020-03-08 12:13:30</sys_updated_on>
+        <table>var__m_sys_hub_action_input_716281160b100300d97d8bf637673ac7</table>
+        <value>New SITCenter Case »{{Created_1.current.short_description}}«</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>e446fd6f1b53c0148bc1da86cc4bcbd7</id>
+        <sys_created_by>markus.loehle</sys_created_by>
+        <sys_created_on>2020-03-08 05:57:57</sys_created_on>
+        <sys_id>3c46fd6f1b53c0148bc1da86cc4bcbd8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>markus.loehle</sys_updated_by>
+        <sys_updated_on>2020-03-08 05:57:57</sys_updated_on>
+        <table>var__m_sys_hub_action_input_716281160b100300d97d8bf637673ac7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=2446fd6f1b53c0148bc1da86cc4bcb5a^sys_idNOT IN080d4ba31b9bc0148bc1da86cc4bcbc1,123cc3631b9bc0148bc1da86cc4bcba4,17cbc7231b9bc0148bc1da86cc4bcbdb,440d4ba31b9bc0148bc1da86cc4bcbc1,5e3cc3631b9bc0148bc1da86cc4bcba3,5fcbc7231b9bc0148bc1da86cc4bcbda,8c0d4ba31b9bc0148bc1da86cc4bcbc1,a695316f1b53c0148bc1da86cc4bcbc3,b846fd6f1b53c0148bc1da86cc4bcbdb,c80d4ba31b9bc0148bc1da86cc4bcbc1,d23cc3631b9bc0148bc1da86cc4bcba4,d7cbc7231b9bc0148bc1da86cc4bcbdb,ea3c07631b9bc0148bc1da86cc4bcb27"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>2446fd6f1b53c0148bc1da86cc4bcb5a</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.description}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>markus.loehle</sys_created_by>
+        <sys_created_on>2020-03-08 12:16:55</sys_created_on>
+        <sys_id>080d4ba31b9bc0148bc1da86cc4bcbc1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="SitCenter Management">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_scope>
+        <sys_updated_by>markus.loehle</sys_updated_by>
+        <sys_updated_on>2020-03-08 12:21:46</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>b3b543ac-26ed-4fc4-9c26-c111a82cb16b</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>2446fd6f1b53c0148bc1da86cc4bcb5a</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.description}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>markus.loehle</sys_created_by>
+        <sys_created_on>2020-03-08 12:13:31</sys_created_on>
+        <sys_id>123cc3631b9bc0148bc1da86cc4bcba4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="SitCenter Management">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_scope>
+        <sys_updated_by>markus.loehle</sys_updated_by>
+        <sys_updated_on>2020-03-08 12:13:31</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>b3b543ac-26ed-4fc4-9c26-c111a82cb16b</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>2446fd6f1b53c0148bc1da86cc4bcb5a</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.short_description}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>markus.loehle</sys_created_by>
+        <sys_created_on>2020-03-08 12:11:41</sys_created_on>
+        <sys_id>17cbc7231b9bc0148bc1da86cc4bcbdb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="SitCenter Management">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_scope>
+        <sys_updated_by>markus.loehle</sys_updated_by>
+        <sys_updated_on>2020-03-08 12:16:54</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>4435b41c-c224-400c-a841-f36f1e5f1482</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>2446fd6f1b53c0148bc1da86cc4bcb5a</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.short_description}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>markus.loehle</sys_created_by>
+        <sys_created_on>2020-03-08 12:16:55</sys_created_on>
+        <sys_id>440d4ba31b9bc0148bc1da86cc4bcbc1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="SitCenter Management">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_scope>
+        <sys_updated_by>markus.loehle</sys_updated_by>
+        <sys_updated_on>2020-03-08 12:21:46</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>4435b41c-c224-400c-a841-f36f1e5f1482</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>2446fd6f1b53c0148bc1da86cc4bcb5a</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.short_description}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>markus.loehle</sys_created_by>
+        <sys_created_on>2020-03-08 12:13:31</sys_created_on>
+        <sys_id>5e3cc3631b9bc0148bc1da86cc4bcba3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="SitCenter Management">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_scope>
+        <sys_updated_by>markus.loehle</sys_updated_by>
+        <sys_updated_on>2020-03-08 12:13:31</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>4435b41c-c224-400c-a841-f36f1e5f1482</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>2446fd6f1b53c0148bc1da86cc4bcb5a</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.number}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>markus.loehle</sys_created_by>
+        <sys_created_on>2020-03-08 12:11:41</sys_created_on>
+        <sys_id>5fcbc7231b9bc0148bc1da86cc4bcbda</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="SitCenter Management">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_scope>
+        <sys_updated_by>markus.loehle</sys_updated_by>
+        <sys_updated_on>2020-03-08 12:16:54</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>cc960ba5-50f6-4961-b9cc-a7a7f3fd9076</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>2446fd6f1b53c0148bc1da86cc4bcb5a</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>markus.loehle</sys_created_by>
+        <sys_created_on>2020-03-08 12:16:55</sys_created_on>
+        <sys_id>8c0d4ba31b9bc0148bc1da86cc4bcbc1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="SitCenter Management">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_scope>
+        <sys_updated_by>markus.loehle</sys_updated_by>
+        <sys_updated_on>2020-03-08 12:21:46</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>84d2fa32-d3b8-485b-b611-b3bc4b56cd27</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>2446fd6f1b53c0148bc1da86cc4bcb5a</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>markus.loehle</sys_created_by>
+        <sys_created_on>2020-03-08 05:55:04</sys_created_on>
+        <sys_id>a695316f1b53c0148bc1da86cc4bcbc3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="SitCenter Management">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_scope>
+        <sys_updated_by>markus.loehle</sys_updated_by>
+        <sys_updated_on>2020-03-08 12:13:31</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>84d2fa32-d3b8-485b-b611-b3bc4b56cd27</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>2446fd6f1b53c0148bc1da86cc4bcb5a</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>markus.loehle</sys_created_by>
+        <sys_created_on>2020-03-08 05:57:57</sys_created_on>
+        <sys_id>b846fd6f1b53c0148bc1da86cc4bcbdb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="SitCenter Management">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_scope>
+        <sys_updated_by>markus.loehle</sys_updated_by>
+        <sys_updated_on>2020-03-08 05:57:57</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>84d2fa32-d3b8-485b-b611-b3bc4b56cd27</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>2446fd6f1b53c0148bc1da86cc4bcb5a</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.number}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>markus.loehle</sys_created_by>
+        <sys_created_on>2020-03-08 12:16:55</sys_created_on>
+        <sys_id>c80d4ba31b9bc0148bc1da86cc4bcbc1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="SitCenter Management">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_scope>
+        <sys_updated_by>markus.loehle</sys_updated_by>
+        <sys_updated_on>2020-03-08 12:21:46</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>cc960ba5-50f6-4961-b9cc-a7a7f3fd9076</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>2446fd6f1b53c0148bc1da86cc4bcb5a</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.number}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>markus.loehle</sys_created_by>
+        <sys_created_on>2020-03-08 12:13:31</sys_created_on>
+        <sys_id>d23cc3631b9bc0148bc1da86cc4bcba4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="SitCenter Management">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_scope>
+        <sys_updated_by>markus.loehle</sys_updated_by>
+        <sys_updated_on>2020-03-08 12:13:31</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>cc960ba5-50f6-4961-b9cc-a7a7f3fd9076</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>2446fd6f1b53c0148bc1da86cc4bcb5a</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.description}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>markus.loehle</sys_created_by>
+        <sys_created_on>2020-03-08 12:11:41</sys_created_on>
+        <sys_id>d7cbc7231b9bc0148bc1da86cc4bcbdb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="SitCenter Management">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_scope>
+        <sys_updated_by>markus.loehle</sys_updated_by>
+        <sys_updated_on>2020-03-08 12:16:54</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>b3b543ac-26ed-4fc4-9c26-c111a82cb16b</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>2446fd6f1b53c0148bc1da86cc4bcb5a</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>markus.loehle</sys_created_by>
+        <sys_created_on>2020-03-08 12:13:32</sys_created_on>
+        <sys_id>ea3c07631b9bc0148bc1da86cc4bcb27</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="SitCenter Management">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_scope>
+        <sys_updated_by>markus.loehle</sys_updated_by>
+        <sys_updated_on>2020-03-08 12:16:54</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>84d2fa32-d3b8-485b-b611-b3bc4b56cd27</ui_id>
+    </sys_hub_pill_compound>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_2446fd6f1b53c0148bc1da86cc4bcb5a^sys_idNOT IN6446fd6f1b53c0148bc1da86cc4bcb62,6846fd6f1b53c0148bc1da86cc4bcbcd"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_2446fd6f1b53c0148bc1da86cc4bcb5a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>markus.loehle</sys_created_by>
+        <sys_created_on>2020-03-08 05:57:56</sys_created_on>
+        <sys_id>6446fd6f1b53c0148bc1da86cc4bcb62</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="SitCenter Management" source="x_snc_sitcenter_ma">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SitCenter Management">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>markus.loehle</sys_updated_by>
+        <sys_updated_on>2020-03-08 05:57:56</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_2446fd6f1b53c0148bc1da86cc4bcb5a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>markus.loehle</sys_created_by>
+        <sys_created_on>2020-03-08 05:57:56</sys_created_on>
+        <sys_id>6846fd6f1b53c0148bc1da86cc4bcbcd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="SitCenter Management" source="x_snc_sitcenter_ma">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SitCenter Management">f2e64d8a1b1f48d08bc1da86cc4bcbba</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>markus.loehle</sys_updated_by>
+        <sys_updated_on>2020-03-08 05:57:56</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+</record_update>
